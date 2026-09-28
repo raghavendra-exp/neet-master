@@ -1,0 +1,97 @@
+{
+  "exam": "NEET-UG",
+  "year": "2026",
+  "status": "current",
+  "officialSource": "https://exams.nta.ac.in/NEET/",
+  "officialSourceName": "National Testing Agency (NTA) & National Medical Commission (NMC)",
+  "notificationDate": "Expected February 2026",
+  "examDate": "First Sunday of May 2026 (May 3, 2026)",
+  "application": {
+    "startDate": "February 2026",
+    "endDate": "March 2026",
+    "feeGeneral": 1700,
+    "feeOBC": 1600,
+    "feeSCST": 1000,
+    "feeNRI": 9500,
+    "correctionWindow": "Expected 3-5 days after application close"
+  },
+  "eligibility": {
+    "minimumAge": "Completed 17 years on or before 31st December of the year of admission",
+    "upperAgeLimit": "No upper age limit (As per National Medical Commission letter & Hon'ble Supreme Court order)",
+    "qualification": "Passed 10+2 or equivalent examination with Physics, Chemistry, Biology/Biotechnology, and English",
+    "mandatorySubjects": [
+      "Physics",
+      "Chemistry",
+      "Biology / Biotechnology",
+      "English"
+    ],
+    "minMarksGeneral": "50% aggregate in Physics, Chemistry, and Biology/Biotechnology",
+    "minMarksReserved": "40% aggregate for OBC-NCL / SC / ST; 45% for General-PwD",
+    "attempts": "No restriction on the number of attempts",
+    "nationality": [
+      "Indian Nationals",
+      "Non-Resident Indians (NRIs)",
+      "Overseas Citizens of India (OCIs)",
+      "Persons of Indian Origin (PIOs)",
+      "Foreign Nationals"
+    ],
+    "ruleType": "Current NMC Guidelines"
+  },
+  "pattern": {
+    "mode": "Pen and Paper (Offline OMR Sheet)",
+    "durationMinutes": 200,
+    "totalQuestions": 200,
+    "questionsToAttempt": 180,
+    "totalMarks": 720,
+    "markingScheme": {
+      "correct": 4,
+      "incorrect": -1,
+      "unattempted": 0
+    },
+    "languagesCount": 13,
+    "languages": [
+      "English",
+      "Hindi",
+      "Assamese",
+      "Bengali",
+      "Gujarati",
+      "Kannada",
+      "Malayalam",
+      "Marathi",
+      "Odia",
+      "Punjabi",
+      "Tamil",
+      "Telugu",
+      "Urdu"
+    ],
+    "sections": [
+      {
+        "subject": "Physics",
+        "sectionA": { "questions": 35, "marks": 140, "compulsory": true },
+        "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true }
+      },
+      {
+        "subject": "Chemistry",
+        "sectionA": { "questions": 35, "marks": 140, "compulsory": true },
+        "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true }
+      },
+      {
+        "subject": "Botany",
+        "sectionA": { "questions": 35, "marks": 140, "compulsory": true },
+        "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true }
+      },
+      {
+        "subject": "Zoology",
+        "sectionA": { "questions": 35, "marks": 140, "compulsory": true },
+        "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true }
+      }
+    ]
+  },
+  "officialLinks": {
+    "website": "https://exams.nta.ac.in/NEET/",
+    "bulletinPdf": "https://exams.nta.ac.in/NEET/",
+    "syllabusPdf": "https://www.nmc.org.in/wp-content/uploads/2023/10/NEET-UG-2024_Syllabus.pdf",
+    "nmcNotice": "https://www.nmc.org.in/"
+  },
+  "lastVerified": "2026-09-28"
+}

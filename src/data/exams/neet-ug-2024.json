@@ -1,0 +1,49 @@
+{
+  "exam": "NEET-UG",
+  "year": "2024",
+  "status": "archived",
+  "officialSource": "https://exams.nta.ac.in/NEET/",
+  "officialSourceName": "National Testing Agency (NTA)",
+  "notificationDate": "February 9, 2024",
+  "examDate": "May 5, 2024",
+  "application": {
+    "startDate": "February 9, 2024",
+    "endDate": "March 16, 2024",
+    "feeGeneral": 1700,
+    "feeOBC": 1600,
+    "feeSCST": 1000,
+    "feeNRI": 9500,
+    "correctionWindow": "March 18-20, 2024"
+  },
+  "eligibility": {
+    "minimumAge": "Completed 17 years by 31.12.2024",
+    "upperAgeLimit": "No upper age limit",
+    "qualification": "10+2 with Physics, Chemistry, Biology/Biotech, English",
+    "mandatorySubjects": ["Physics", "Chemistry", "Biology", "English"],
+    "minMarksGeneral": "50% aggregate in PCB",
+    "minMarksReserved": "40% aggregate for reserved categories",
+    "attempts": "No limit",
+    "nationality": ["Indian", "NRI", "OCI", "Foreign"],
+    "ruleType": "Current NMC Guidelines"
+  },
+  "pattern": {
+    "mode": "Offline OMR Pen-Paper",
+    "durationMinutes": 200,
+    "totalQuestions": 200,
+    "questionsToAttempt": 180,
+    "totalMarks": 720,
+    "markingScheme": { "correct": 4, "incorrect": -1, "unattempted": 0 },
+    "languagesCount": 13,
+    "languages": ["English", "Hindi", "Assamese", "Bengali", "Gujarati", "Kannada", "Malayalam", "Marathi", "Odia", "Punjabi", "Tamil", "Telugu", "Urdu"],
+    "sections": [
+      { "subject": "Physics", "sectionA": { "questions": 35, "marks": 140, "compulsory": true }, "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true } },
+      { "subject": "Chemistry", "sectionA": { "questions": 35, "marks": 140, "compulsory": true }, "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true } },
+      { "subject": "Botany", "sectionA": { "questions": 35, "marks": 140, "compulsory": true }, "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true } },
+      { "subject": "Zoology", "sectionA": { "questions": 35, "marks": 140, "compulsory": true }, "sectionB": { "questions": 15, "attempt": 10, "marks": 40, "optional": true } }
+    ]
+  },
+  "officialLinks": {
+    "website": "https://exams.nta.ac.in/NEET/"
+  },
+  "lastVerified": "2026-09-28"
+}

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "phy-11-01",
+    "name": "Physics and Measurement",
+    "nameHi": "भौतिकी और मापन",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 1: Physics and Measurement",
+    "unitHi": "इकाई 1: भौतिकी और मापन",
+    "weightagePercentage": 3.5,
+    "avgQuestionsPerYear": 2,
+    "ncertChapterNumber": 1,
+    "ncertBook": "NCERT Class 11 Physics Part 1 (Units and Measurements)",
+    "topics": [
+      { "name": "Units of Measurements, System of Units, SI Units", "nameHi": "मापन के मात्रक, मात्रक प्रणाली, SI मात्रक", "isHighYield": true },
+      { "name": "Dimensions of Physical Quantities & Dimensional Analysis", "nameHi": "भौतिक राशियों की विमाएं और विमीय विश्लेषण", "isHighYield": true },
+      { "name": "Errors in Measurement & Significant Figures", "nameHi": "मापन में त्रुटियां एवं सार्थक अंक", "isHighYield": true },
+      { "name": "Practical Physics: Vernier Calipers and Screw Gauge", "nameHi": "प्रायोगिक भौतिकी: वर्नियर कैलिपर्स और स्क्रू गेज", "isHighYield": true, "isNmcAdded": true }
+    ],
+    "nmcNotes": "Experimental physics skills including least count calculation for vernier calipers and micrometer screw gauge are explicitly tested.",
+    "keyConcepts": [
+      "Principle of Homogeneity of dimensions [LHS] = [RHS]",
+      "Relative error = Δa / a_mean; Percentage error = (Δa / a_mean) × 100%",
+      "Least Count of Vernier = 1 MSD - 1 VSD",
+      "Least Count of Screw Gauge = Pitch / Total Head Scale Divisions"
+    ],
+    "formulaHints": [
+      "[Force] = [MLT⁻²], [Energy] = [ML²T⁻²], [h] = [ML²T⁻¹]",
+      "If Z = A^p · B^q / C^r, then ΔZ/Z = p(ΔA/A) + q(ΔB/B) + r(ΔC/C)"
+    ],
+    "commonMistakes": [
+      "Adding or subtracting percentage errors with negative signs. Fractional errors ALWAYS add in worst-case analysis.",
+      "Forgetting zero error correction in Vernier calipers (Observed reading = MSR + VSR × LC - Zero Error)."
+    ],
+    "shortTricks": [
+      "Check dimensions of options first to eliminate 2 out of 4 options in 10 seconds.",
+      "For exponential or trigonometric arguments, the inside quantity MUST be dimensionless."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "Concepts of Physics by H.C. Verma Vol 1", "DC Pandey NEET Physics"]
+  },
+  {
+    "id": "phy-11-02",
+    "name": "Kinematics",
+    "nameHi": "शुद्धगतिकी",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 2: Kinematics",
+    "unitHi": "इकाई 2: शुद्धगतिकी",
+    "weightagePercentage": 6.5,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 2,
+    "ncertBook": "NCERT Class 11 Physics Part 1 (Motion in a Straight Line & Motion in a Plane)",
+    "topics": [
+      { "name": "Motion in a Straight Line: Velocity, Speed, Acceleration", "nameHi": "सरल रेखा में गति: वेग, चाल, त्वरण", "isHighYield": false },
+      { "name": "Uniformly Accelerated Motion & Equations of Motion", "nameHi": "एकसमान त्वरित गति एवं गति के समीकरण", "isHighYield": true },
+      { "name": "Relative Velocity in 1D and 2D (Rain-Man, River-Boat)", "nameHi": "आपेक्षिक वेग: 1D और 2D (वर्षा-व्यक्ति, नदी-नाव)", "isHighYield": true },
+      { "name": "Projectile Motion (Horizontal & Oblique)", "nameHi": "प्रक्षेप्य गति (क्षैतिज और तिर्यक)", "isHighYield": true },
+      { "name": "Uniform Circular Motion (Kinematics)", "nameHi": "एकसमान वृत्तीय गति", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Equations of motion v = u + at, s = ut + 0.5at², v² = u² + 2as are ONLY valid for constant acceleration.",
+      "Time of flight T = 2u sinθ / g; Maximum Height H = u² sin²θ / 2g; Range R = u² sin 2θ / g",
+      "Complementary angles θ and (90° - θ) have the exact same horizontal range for the same speed."
+    ],
+    "formulaHints": [
+      "s_nth = u + a/2 (2n - 1)",
+      "R = 4H cotθ",
+      "Centripetal acceleration a_c = v² / r = ω² r"
+    ],
+    "commonMistakes": [
+      "Using equations of motion when acceleration is variable (e.g. a = 3t). Must use calculus: v = ∫a dt, s = ∫v dt.",
+      "Confusing speed with velocity in average velocity calculations."
+    ],
+    "shortTricks": [
+      "Ratio of distances in consecutive seconds starting from rest with uniform acceleration is Galileo's odd numbers ratio 1 : 3 : 5 : 7...",
+      "For projectile launched horizontally from height h: t = √(2h/g), Range = u√(2h/g)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1", "MTG NEET Champion Physics"]
+  },
+  {
+    "id": "phy-11-03",
+    "name": "Laws of Motion",
+    "nameHi": "गति के नियम",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 3: Laws of Motion",
+    "unitHi": "इकाई 3: गति के नियम",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 4,
+    "ncertBook": "NCERT Class 11 Physics Part 1 (Laws of Motion)",
+    "topics": [
+      { "name": "Newton's First, Second & Third Laws of Motion", "nameHi": "न्यूटन के गति के नियम", "isHighYield": true },
+      { "name": "Conservation of Linear Momentum & Impulse", "nameHi": "रैखिक संवेग संरक्षण एवं आवेग", "isHighYield": true },
+      { "name": "Equilibrium of Concurrent Forces & Free Body Diagrams (FBD)", "nameHi": "संगामी बलों का संतुलन एवं मुक्त पिण्ड आरेख", "isHighYield": true },
+      { "name": "Friction: Static, Limiting, Kinetic Friction & Angle of Repose", "nameHi": "घर्षण: स्थैतिक, सीमांत, गतिज घर्षण एवं विराम कोण", "isHighYield": true },
+      { "name": "Dynamics of Circular Motion & Banking of Roads", "nameHi": "वृत्तीय गति की गतिकी और सड़कों की बंकन", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "F_net = dp/dt = m(dv/dt) for constant mass.",
+      "Static friction is self-adjusting: 0 ≤ f_s ≤ μ_s N. Kinetic friction f_k = μ_k N.",
+      "Optimum speed on banked road v_opt = √(rg tanθ); Maximum safe speed v_max = √[rg (tanθ + μ) / (1 - μ tanθ)]."
+    ],
+    "formulaHints": [
+      "Impulse J = ∫ F dt = Δp = m(v - u)",
+      "Atwood Machine: a = (m₂ - m₁)g / (m₁ + m₂), Tension T = 2m₁m₂g / (m₁ + m₂)",
+      "Apparent weight in lift accelerating up: N = m(g + a); accelerating down: N = m(g - a)"
+    ],
+    "commonMistakes": [
+      "Assuming normal reaction is always mg. On an inclined plane N = mg cosθ; in an elevator N depends on acceleration.",
+      "Applying friction in direction opposite to motion instead of opposite to relative tendency of slipping."
+    ],
+    "shortTricks": [
+      "Acceleration of block on rough incline sliding down: a = g(sinθ - μ cosθ).",
+      "If a body takes n times more time to slide down a rough incline of angle θ than a smooth incline of same angle: μ = tanθ(1 - 1/n²)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1", "Errorless Physics"]
+  },
+  {
+    "id": "phy-11-04",
+    "name": "Work, Energy and Power",
+    "nameHi": "कार्य, ऊर्जा और शक्ति",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 4: Work, Energy and Power",
+    "unitHi": "इकाई 4: कार्य, ऊर्जा और शक्ति",
+    "weightagePercentage": 5.0,
+    "avgQuestionsPerYear": 2,
+    "ncertChapterNumber": 5,
+    "ncertBook": "NCERT Class 11 Physics Part 1 (Work, Energy and Power)",
+    "topics": [
+      { "name": "Work Done by Constant & Variable Forces", "nameHi": "नियत एवं परिवर्ती बल द्वारा किया गया कार्य", "isHighYield": true },
+      { "name": "Work-Energy Theorem (Fundamental Engine)", "nameHi": "कार्य-ऊर्जा प्रमेय", "isHighYield": true },
+      { "name": "Potential Energy of Spring, Conservative Forces, Gravitational PE", "nameHi": "स्प्रिंग की स्थितिज ऊर्जा, संरक्षी बल", "isHighYield": true },
+      { "name": "Conservation of Mechanical Energy & Motion in a Vertical Circle", "nameHi": "यांत्रिक ऊर्जा संरक्षण एवं ऊर्ध्वाधर वृत्त में गति", "isHighYield": true },
+      { "name": "Elastic and Inelastic Collisions in 1D and 2D", "nameHi": "प्रत्यास्थ एवं अप्रत्यास्थ संघट्ट (1D व 2D)", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Work-Energy Theorem: W_all forces = ΔK = K_f - K_i",
+      "Conservative force F = -dU/dx; for equilibrium dU/dx = 0 (stable if d²U/dx² > 0)",
+      "Vertical circle minimum velocity at lowest point for full looping v_L = √(5gl), at highest point v_T = √(gl)"
+    ],
+    "formulaHints": [
+      "W = ∫ F · dr = Area under F-x curve",
+      "Spring Potential Energy U = 0.5 k x²",
+      "Power P = F · v = dW/dt",
+      "Coefficient of restitution e = (v₂ - v₁) / (u₁ - u₂)"
+    ],
+    "commonMistakes": [
+      "Thinking normal force never does work. Normal force can do work if the surface in contact is moving (e.g. lift).",
+      "Forgetting tension at top of vertical circle must be ≥ 0 for complete loop, not velocity ≥ 0."
+    ],
+    "shortTricks": [
+      "Fractional loss of kinetic energy in direct inelastic collision when one body was at rest: ΔK/K = m₂ / (m₁ + m₂).",
+      "After n bounces from height h with coefficient of restitution e: Height h_n = e^(2n) · h."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1", "DC Pandey"]
+  },
+  {
+    "id": "phy-11-05",
+    "name": "Rotational Motion",
+    "nameHi": "घूर्णी गति",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 5: System of Particles and Rotational Motion",
+    "unitHi": "इकाई 5: कणों के निकाय तथा घूर्णी गति",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 6,
+    "ncertBook": "NCERT Class 11 Physics Part 1 (System of Particles and Rotational Motion)",
+    "topics": [
+      { "name": "Center of Mass of 2-Particle & Multi-Particle Systems", "nameHi": "द्रव्यमान केंद्र", "isHighYield": true },
+      { "name": "Torque and Angular Momentum", "nameHi": "बल आघूर्ण एवं कोणीय संवेग", "isHighYield": true },
+      { "name": "Conservation of Angular Momentum with Applications", "nameHi": "कोणीय संवेग संरक्षण", "isHighYield": true },
+      { "name": "Moment of Inertia, Radius of Gyration, Parallel & Perpendicular Axes Theorems", "nameHi": "जड़त्व आघूर्ण, परिभ्रमण त्रिज्या", "isHighYield": true },
+      { "name": "Rolling Motion on Horizontal and Inclined Planes", "nameHi": "लोटनिक गति (आनत तल पर)", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "τ = r × F = Iα = dL/dt. If external torque is zero, angular momentum L = Iω is conserved.",
+      "Parallel axis theorem: I = I_cm + Md²; Perpendicular axis theorem (laminar body only): I_z = I_x + I_y.",
+      "Rolling without slipping: v_cm = Rω, K_total = 0.5 m v_cm² (1 + k²/R²)."
+    ],
+    "formulaHints": [
+      "Solid Sphere: I = (2/5)MR²; Hollow Sphere: I = (2/3)MR²",
+      "Disc / Solid Cylinder: I = (1/2)MR²; Ring / Hollow Cylinder: I = MR²",
+      "Rod (center): I = ML²/12; Rod (end): I = ML²/3",
+      "Acceleration down incline: a = g sinθ / (1 + k²/R²)"
+    ],
+    "commonMistakes": [
+      "Applying perpendicular axis theorem to 3D bodies like spheres or cylinders (only valid for 2D planar laminas).",
+      "Confusing center of mass with center of gravity in non-uniform gravitational fields."
+    ],
+    "shortTricks": [
+      "In rolling down incline race: body with SMALLEST (k²/R²) reaches bottom first with maximum speed: Solid Sphere (0.4) > Disc (0.5) > Hollow Sphere (0.67) > Ring (1.0)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1"]
+  },
+  {
+    "id": "phy-11-06",
+    "name": "Gravitation",
+    "nameHi": "गुरुत्वाकर्षण",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 6: Gravitation",
+    "unitHi": "इकाई 6: गुरुत्वाकर्षण",
+    "weightagePercentage": 4.5,
+    "avgQuestionsPerYear": 2,
+    "ncertChapterNumber": 7,
+    "ncertBook": "NCERT Class 11 Physics Part 1 (Gravitation)",
+    "topics": [
+      { "name": "Kepler's Laws of Planetary Motion", "nameHi": "केप्लर के ग्रहीय गति के नियम", "isHighYield": true },
+      { "name": "Universal Law of Gravitation & Acceleration due to Gravity (g)", "nameHi": "सार्वत्रिक गुरुत्वाकर्षण नियम व गुरुत्वीय त्वरण", "isHighYield": true },
+      { "name": "Variation of g with Altitude, Depth, and Latitude (Rotation)", "nameHi": "ऊंचाई, गहराई और अक्षांश के साथ g में परिवर्तन", "isHighYield": true },
+      { "name": "Gravitational Potential Energy & Gravitational Potential", "nameHi": "गुरुत्वीय स्थितिज ऊर्जा एवं विभव", "isHighYield": true },
+      { "name": "Escape Velocity & Orbital Velocity of Satellites, Geostationary Satellites", "nameHi": "पलायन वेग एवं उपग्रह का कक्षीय वेग", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Kepler's 2nd Law (Law of Areas) is a direct consequence of Conservation of Angular Momentum (dA/dt = L / 2m = constant).",
+      "Kepler's 3rd Law: T² ∝ r³.",
+      "Escape velocity v_e = √(2GM/R) = √(2gR) ≈ 11.2 km/s on Earth.",
+      "Orbital velocity v_o = √(GM/r) = v_e / √2 (for surface orbit)."
+    ],
+    "formulaHints": [
+      "At height h << R: g' = g(1 - 2h/R); At any h: g' = g [R / (R+h)]²",
+      "At depth d: g' = g(1 - d/R)",
+      "With latitude λ: g' = g - Rω² cos²λ (g maximum at poles, minimum at equator)",
+      "Total energy of orbiting satellite E = -GMm / (2r) = -K = U/2"
+    ],
+    "commonMistakes": [
+      "Using g' = g(1 - 2h/R) when h is large (e.g. h = R). Always use exact formula g' = g [R / (R+h)]².",
+      "Forgetting the negative sign in gravitational potential U = -GMm/r."
+    ],
+    "shortTricks": [
+      "Binding energy of satellite is equal in magnitude to its Kinetic Energy: BE = +GMm / (2r).",
+      "Ratio of escape velocity to orbital velocity for near-earth orbit is always √2 : 1."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1"]
+  },
+  {
+    "id": "phy-11-07",
+    "name": "Properties of Bulk Matter",
+    "nameHi": "स्थूल पदार्थ के गुण",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 7: Properties of Bulk Matter",
+    "unitHi": "इकाई 7: स्थूल पदार्थ के गुण",
+    "weightagePercentage": 6.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 8,
+    "ncertBook": "NCERT Class 11 Physics Part 2 (Mechanical Properties of Solids & Fluids)",
+    "topics": [
+      { "name": "Hooke's Law, Stress-Strain Curve, Young's, Bulk & Shear Moduli", "nameHi": "हुक का नियम, प्रतिबल-विकृति वक्र, प्रत्यास्थता गुणांक", "isHighYield": true },
+      { "name": "Pascal's Law, Hydraulic Lift, Atmospheric Pressure", "nameHi": "पास्कल का नियम, द्रवचालित लिफ्ट", "isHighYield": true },
+      { "name": "Viscosity, Stokes' Law, Terminal Velocity, Reynolds Number", "nameHi": "श्यानता, स्टोक्स नियम, सीमांत वेग", "isHighYield": true },
+      { "name": "Bernoulli's Principle & Applications (Torricelli, Venturimeter)", "nameHi": "बरनौली प्रमेय और अनुप्रयोग", "isHighYield": true },
+      { "name": "Surface Tension, Excess Pressure inside Droplet/Bubble, Capillarity", "nameHi": "पृष्ठ तनाव, बूंद/बुलबुले में आधिक्य दाब, केशिकत्व", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Terminal velocity v_t = 2r²(ρ - σ)g / (9η) → v_t ∝ r².",
+      "Bernoulli's Equation: P + 0.5 ρ v² + ρ g h = Constant.",
+      "Excess pressure in liquid drop = 2T/R; soap bubble (two surfaces) = 4T/R.",
+      "Capillary rise: h = 2T cosθ / (r ρ g)."
+    ],
+    "formulaHints": [
+      "Elastic potential energy density = 0.5 × Stress × Strain = 0.5 × Y × (Strain)²",
+      "Equation of continuity: A₁v₁ = A₂v₂",
+      "Speed of efflux: v = √(2gh) (Torricelli's Law)"
+    ],
+    "commonMistakes": [
+      "Using 2T/R for soap bubbles instead of 4T/R (soap bubble has inner and outer free liquid-air interfaces).",
+      "Confusing steel and rubber elasticity: Steel is MORE elastic than rubber because it requires greater stress for same strain."
+    ],
+    "shortTricks": [
+      "When n small droplets of radius r coalesce to form one big drop of radius R: R = n^(1/3) r, Energy released = 4πT R² [n^(1/3) - 1].",
+      "Angle of contact θ < 90° for wetting liquids (water on glass); θ > 90° for non-wetting (mercury on glass)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1"]
+  },
+  {
+    "id": "phy-11-08",
+    "name": "Thermodynamics and KTG",
+    "nameHi": "ऊष्मागतिकी एवं अणुगति सिद्धांत",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 8: Thermodynamics",
+    "unitHi": "इकाई 8: ऊष्मागतिकी",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 11,
+    "ncertBook": "NCERT Class 11 Physics Part 2 (Thermal Properties of Matter, Thermodynamics, KTG)",
+    "topics": [
+      { "name": "Thermal Expansion, Calorimetry & Specific Heat Capacity", "nameHi": "तापीय प्रसार, कैलोरीमिति", "isHighYield": true },
+      { "name": "First Law of Thermodynamics: ΔQ = ΔU + ΔW", "nameHi": "ऊष्मागतिकी का प्रथम नियम", "isHighYield": true },
+      { "name": "Thermodynamic Processes: Isothermal, Adiabatic, Isochoric, Isobaric", "nameHi": "समतापी, रुद्धोष्म, समआयतनिक, समदाबीय प्रक्रम", "isHighYield": true },
+      { "name": "Carnot Engine & Efficiency, Refrigerator & COP", "nameHi": "कार्नो इंजन, दक्षता एवं प्रशीतक", "isHighYield": true },
+      { "name": "Kinetic Theory of Gases: RMS Speed, Degrees of Freedom & Equipartition", "nameHi": "गैसों का अणुगति सिद्धांत, वर्ग माध्य मूल चाल", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Work done in isobaric: W = PΔV; Isothermal: W = nRT ln(V₂/V₁); Adiabatic: W = (P₁V₁ - P₂V₂) / (γ - 1).",
+      "Efficiency of Carnot Engine η = 1 - T_C / T_H = (Q_H - Q_C) / Q_H (Temperatures MUST be in Kelvin!).",
+      "RMS speed v_rms = √(3RT/M) = √(3kT/m); Average speed = √(8RT/πM); Most Probable speed = √(2RT/M)."
+    ],
+    "formulaHints": [
+      "ΔU = n C_v ΔT = n (R / (γ - 1)) ΔT (always true for ideal gas regardless of path)",
+      "C_p - C_v = R; γ = C_p / C_v = 1 + 2/f (f = degrees of freedom)",
+      "Monoatomic (f=3, γ=5/3); Diatomic (f=5, γ=7/5); Polyatomic (f=6, γ=4/3)"
+    ],
+    "commonMistakes": [
+      "Inserting Celsius temperatures into Carnot efficiency formulas. Carnot calculations strictly require Kelvin!",
+      "Confusing physics sign convention (W = ∫ P dV, done BY gas) with chemistry sign convention (W = -P_ext ΔV, done ON gas)."
+    ],
+    "shortTricks": [
+      "Slope of adiabatic PV curve is γ times steeper than isothermal PV curve: (dP/dV)_adi = γ (dP/dV)_iso.",
+      "Ratio of speeds: v_rms : v_avg : v_mp = √3 : √(8/π) : √2 ≈ 1.73 : 1.60 : 1.41 (RAM rule: R > A > M)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 2"]
+  },
+  {
+    "id": "phy-11-09",
+    "name": "Oscillations and Waves",
+    "nameHi": "दोलन एवं तरंगें",
+    "subject": "Physics",
+    "classLevel": 11,
+    "unit": "Unit 9: Oscillations and Waves",
+    "unitHi": "इकाई 9: दोलन एवं तरंगें",
+    "weightagePercentage": 6.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 13,
+    "ncertBook": "NCERT Class 11 Physics Part 2 (Oscillations and Waves)",
+    "topics": [
+      { "name": "Simple Harmonic Motion (SHM): Equation, Velocity, Acceleration, Energy", "nameHi": "सरल आवर्त गति: समीकरण, वेग, त्वरण, ऊर्जा", "isHighYield": true },
+      { "name": "Simple Pendulum & Spring-Mass System (Series and Parallel)", "nameHi": "सरल लोलक एवं स्प्रिंग-द्रव्यमान निकाय", "isHighYield": true },
+      { "name": "Wave Motion: Transverse and Longitudinal Waves, Wave Equation", "nameHi": "तरंग गति: अनुप्रस्थ एवं अनुदैर्ध्य तरंगें", "isHighYield": true },
+      { "name": "Superposition of Waves, Standing Waves in Strings & Organ Pipes", "nameHi": "तरंगों का अध्यारोपण, अप्रगामी तरंगें, आर्गन पाइप", "isHighYield": true },
+      { "name": "Beats Phenomenon", "nameHi": "विस्पंद परिघटना", "isHighYield": true }
+    ],
+    "nmcNotes": "Doppler Effect was removed in NMC revised syllabus, but standing waves in pipes and beats remain high-yield.",
+    "keyConcepts": [
+      "SHM condition: a = -ω² x; Time period T = 2π/ω.",
+      "Total Energy in SHM: E = 0.5 m ω² A² = constant. At mean position K is max; at extreme U is max.",
+      "Open Organ Pipe: contains all harmonics (f, 2f, 3f...); fundamental f₁ = v / (2L).",
+      "Closed Organ Pipe: contains ONLY odd harmonics (f, 3f, 5f...); fundamental f₁ = v / (4L)."
+    ],
+    "formulaHints": [
+      "Simple Pendulum: T = 2π √(L/g)",
+      "Spring pendulum: T = 2π √(m/k); In series: 1/k_eq = 1/k₁ + 1/k₂; In parallel: k_eq = k₁ + k₂",
+      "Beat frequency = |f₁ - f₂|"
+    ],
+    "commonMistakes": [
+      "Thinking frequency of kinetic energy is same as SHM frequency. Kinetic and Potential energy oscillate at TWICE the SHM frequency (2f).",
+      "Forgetting end correction e = 0.6r in organ pipes if tube radius is given."
+    ],
+    "shortTricks": [
+      "Cutting spring of constant k into n equal parts: each new spring has constant n·k.",
+      "Waxing a tuning fork decreases its frequency; filing increases its frequency."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Physics", "HC Verma Vol 1"]
+  },
+  {
+    "id": "phy-12-01",
+    "name": "Electrostatics",
+    "nameHi": "स्थिरवैद्युतिकी",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 10: Electrostatics",
+    "unitHi": "इकाई 10: स्थिरवैद्युतिकी",
+    "weightagePercentage": 8.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 1,
+    "ncertBook": "NCERT Class 12 Physics Part 1 (Electric Charges and Fields & Electrostatic Potential and Capacitance)",
+    "topics": [
+      { "name": "Coulomb's Law & Electric Field due to Point Charges & Dipoles", "nameHi": "कूलॉम का नियम एवं विद्युत क्षेत्र", "isHighYield": true },
+      { "name": "Gauss's Law & Applications (Infinitely Long Wire, Sheet, Spherical Shell)", "nameHi": "गाउस का नियम एवं अनुप्रयोग", "isHighYield": true },
+      { "name": "Electrostatic Potential & Potential Energy of System of Charges", "nameHi": "स्थिरविद्युत विभव एवं स्थितिज ऊर्जा", "isHighYield": true },
+      { "name": "Capacitors: Parallel Plate, Dielectrics, Combinations & Energy Stored", "nameHi": "संधारित्र: समांतर पट्ट, परावैद्युत, संयोजन एवं ऊर्जा", "isHighYield": true },
+      { "name": "Common Potential & Loss of Energy on Connecting Capacitors", "nameHi": "उभयनिष्ठ विभव एवं ऊर्जा ह्रास", "isHighYield": true }
+    ],
+    "nmcNotes": "Van de Graaff generator deleted in revised syllabus. Dielectric slabs and Gauss's law are primary focuses.",
+    "keyConcepts": [
+      "Electric field is conservative: E = -dV/dr = -∇V.",
+      "Electric dipole moment p = q × 2a (directed from negative to positive). On axial line: E_axial = 2kp/r³; on equatorial line: E_equatorial = kp/r³.",
+      "Energy stored in capacitor: U = 0.5 CV² = Q² / (2C) = 0.5 QV.",
+      "When battery disconnected: Charge Q remains constant. When battery connected: Potential V remains constant."
+    ],
+    "formulaHints": [
+      "Capacitance of parallel plate: C = ε₀ A / d; With dielectric slab of thickness t: C = ε₀ A / (d - t + t/K)",
+      "Energy density u_E = 0.5 ε₀ E²",
+      "Loss of energy: ΔU = 0.5 · [C₁C₂ / (C₁+C₂)] (V₁ - V₂)²"
+    ],
+    "commonMistakes": [
+      "Applying Gauss's law flux formula Φ = q_enclosed / ε₀ without checking whether charge is strictly enclosed within surface.",
+      "Confusing effect of dielectric: if battery is connected, V is constant and Q increases by K; if battery disconnected, Q is constant and V decreases by 1/K."
+    ],
+    "shortTricks": [
+      "Inside a charged conducting sphere/shell: E = 0, but potential V = constant = kQ/R (same as at surface).",
+      "Field outside spherical shell at distance r ≥ R behaves as if entire charge is concentrated at the center."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2", "DC Pandey Class 12"]
+  },
+  {
+    "id": "phy-12-02",
+    "name": "Current Electricity",
+    "nameHi": "विद्युत धारा",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 11: Current Electricity",
+    "unitHi": "इकाई 11: विद्युत धारा",
+    "weightagePercentage": 8.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 3,
+    "ncertBook": "NCERT Class 12 Physics Part 1 (Current Electricity)",
+    "topics": [
+      { "name": "Electric Current, Drift Velocity, Mobility & Ohm's Law", "nameHi": "विद्युत धारा, अपवाह वेग, गतिशीलता एवं ओम का नियम", "isHighYield": true },
+      { "name": "Temperature Dependence of Resistance & Color Code (Deleted)", "nameHi": "प्रतिरोध की ताप निर्भरता", "isHighYield": true },
+      { "name": "EMF, Internal Resistance, Cells in Series and Parallel", "nameHi": "विद्युत वाहक बल, आंतरिक प्रतिरोध, सेल संयोजन", "isHighYield": true },
+      { "name": "Kirchhoff's Laws (Junction & Loop Rule) and Wheatstone Bridge", "nameHi": "किरचॉफ के नियम एवं व्हीटस्टोन सेतु", "isHighYield": true },
+      { "name": "Practical Physics: Meter Bridge and Potentiometer Principles", "nameHi": "प्रायोगिक भौतिकी: मीटर सेतु", "isHighYield": true, "isNmcAdded": true }
+    ],
+    "nmcNotes": "Meter Bridge and finding resistance of a wire are key practical physics topics. Potentiometer was removed from NCERT theory but basic null-point comparison concepts may appear under practical syllabus.",
+    "keyConcepts": [
+      "Current I = n e A v_d; Current density J = σ E = n e v_d.",
+      "Drift velocity v_d = e E τ / m; Mobility μ = v_d / E = e τ / m.",
+      "Kirchhoff's Junction Rule is based on Conservation of Charge; Loop Rule is based on Conservation of Energy.",
+      "Wheatstone bridge balanced condition: R₁/R₂ = R₃/R₄ → no current flows through galvanometer."
+    ],
+    "formulaHints": [
+      "R = ρ l / A; ρ = m / (n e² τ)",
+      "R_t = R₀ (1 + α ΔT)",
+      "Cells in parallel: E_eq = (E₁/r₁ + E₂/r₂) / (1/r₁ + 1/r₂), r_eq = r₁r₂ / (r₁ + r₂)",
+      "Maximum power transfer theorem: P is max when load resistance R = internal resistance r, P_max = E² / (4r)"
+    ],
+    "commonMistakes": [
+      "Confusing terminal potential difference V with emf E. When discharging: V = E - Ir; when charging: V = E + Ir.",
+      "Applying Kirchhoff loop rule without being consistent with sign convention for emf and resistor IR drops."
+    ],
+    "shortTricks": [
+      "Symmetry method for cube/ladder resistor networks: across body diagonal R_eq = (5/6)R; across face diagonal R_eq = (3/4)R; across edge R_eq = (7/12)R.",
+      "If length of wire is stretched by x% (where x < 5%), resistance increases by approximately 2x%."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2"]
+  },
+  {
+    "id": "phy-12-03",
+    "name": "Magnetic Effects of Current & Magnetism",
+    "nameHi": "धारा के चुंबकीय प्रभाव एवं चुंबकत्व",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 12: Magnetic Effects of Current and Magnetism",
+    "unitHi": "इकाई 12: गतिमान आवेश और चुंबकत्व",
+    "weightagePercentage": 7.5,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 4,
+    "ncertBook": "NCERT Class 12 Physics Part 1 (Moving Charges & Magnetism, Magnetism & Matter)",
+    "topics": [
+      { "name": "Biot-Savart Law & Magnetic Field due to Circular Loop and Straight Wire", "nameHi": "बायो-सावर्ट नियम", "isHighYield": true },
+      { "name": "Ampere's Circuital Law & Solenoid", "nameHi": "ऐम्पियर का परिपथीय नियम एवं परिनालिका", "isHighYield": true },
+      { "name": "Lorentz Force, Motion of Charge in Combined E and B fields", "nameHi": "लॉरेंट्ज़ बल, आवेशित कण की गति", "isHighYield": true },
+      { "name": "Force between Two Parallel Current-Carrying Conductors", "nameHi": "समानांतर धारावाही चालकों के बीच बल", "isHighYield": true },
+      { "name": "Torque on Current Loop, Moving Coil Galvanometer & Conversion to Ammeter/Voltmeter", "nameHi": "चल कुंडली धारामापी, अमीटर एवं वोल्टमीटर में रूपांतरण", "isHighYield": true },
+      { "name": "Magnetic Dipole, Earth's Magnetism & Magnetic Materials (Dia, Para, Ferro)", "nameHi": "चुंबकीय द्विध्रुव, भू-चुंबकत्व एवं चुंबकीय पदार्थ", "isHighYield": true }
+    ],
+    "nmcNotes": "Cyclotron is deleted. Conversion of galvanometer to ammeter (shunt S) and voltmeter (series R) is a designated practical syllabus point.",
+    "keyConcepts": [
+      "Lorentz Force F = q(E + v × B). When v ⊥ B, path is circle: radius r = mv / (qB) = p / (qB) = √(2mK) / (qB).",
+      "Time period in uniform B: T = 2πm / (qB) is completely INDEPENDENT of speed and radius.",
+      "Conversion to Ammeter: S = [I_g / (I - I_g)] · G in parallel.",
+      "Conversion to Voltmeter: R = (V / I_g) - G in series."
+    ],
+    "formulaHints": [
+      "Straight wire: B = μ₀ I / (2π d)",
+      "Center of circular coil: B = μ₀ N I / (2R); On axis: B = μ₀ N I R² / [2(R² + x²)^(3/2)]",
+      "Force between parallel wires: F/L = μ₀ I₁ I₂ / (2π d) (attract if parallel, repel if antiparallel)",
+      "Curie's Law: χ ∝ 1/T for paramagnetic materials"
+    ],
+    "commonMistakes": [
+      "Magnetic force F = q(v × B) does NO WORK on charged particle because force is always perpendicular to velocity. Kinetic energy remains constant.",
+      "Connecting shunt resistor in series instead of parallel when making ammeter."
+    ],
+    "shortTricks": [
+      "For helical motion: pitch p = v_parallel · T = (v cosθ) · (2πm / qB).",
+      "Diamagnetic susceptibility is small and negative (independent of temperature); Superconductors show perfect diamagnetism (χ = -1, Meissner effect)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2"]
+  },
+  {
+    "id": "phy-12-04",
+    "name": "Electromagnetic Induction & Alternating Current",
+    "nameHi": "विद्युत चुंबकीय प्रेरण एवं प्रत्यावर्ती धारा",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 13: Electromagnetic Induction and Alternating Currents",
+    "unitHi": "इकाई 13: विद्युत चुंबकीय प्रेरण तथा प्रत्यावर्ती धारा",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 6,
+    "ncertBook": "NCERT Class 12 Physics Part 1 (EMI and Alternating Currents)",
+    "topics": [
+      { "name": "Faraday's Laws of Induction & Lenz's Law (Conservation of Energy)", "nameHi": "फैराडे के नियम एवं लेन्ज़ का नियम", "isHighYield": true },
+      { "name": "Motional EMF: e = Bvl & Induced Electric Field", "nameHi": "गतिक विद्युत वाहक बल", "isHighYield": true },
+      { "name": "Self Inductance, Mutual Inductance & Energy Stored in Inductor", "nameHi": "स्वप्रेरण, अन्योन्य प्रेरण एवं ऊर्जा", "isHighYield": true },
+      { "name": "AC Circuit with L, C, R and Series LCR Resonance", "nameHi": "LCR परिपथ एवं अनुनाद", "isHighYield": true },
+      { "name": "Power in AC Circuit, Power Factor, Wattless Current & Transformers", "nameHi": "प्रत्यावर्ती परिपथ में शक्ति, शक्ति गुणांक, ट्रांसफार्मर", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Lenz's law: Induced current always opposes the cause that produces it (direction given by conservation of energy).",
+      "Series LCR Resonance: X_L = X_C → ω₀ = 1 / √(LC). At resonance, impedance Z = R (minimum), current is maximum.",
+      "Power in AC: P_avg = V_rms I_rms cosφ; Power factor cosφ = R / Z.",
+      "For pure inductor or capacitor, φ = 90° → cosφ = 0 → P_avg = 0 (Wattless current)."
+    ],
+    "formulaHints": [
+      "Induced emf e = -N (dΦ/dt); Self-induced emf e = -L (dI/dt)",
+      "Energy in inductor U = 0.5 L I²",
+      "Impedance Z = √[R² + (X_L - X_C)²], where X_L = ωL, X_C = 1 / (ωC)",
+      "Quality Factor Q = (1/R) √(L/C) = ω₀ / Δω",
+      "Transformer: V_s / V_p = N_s / N_p = I_p / I_s"
+    ],
+    "commonMistakes": [
+      "Using peak values instead of RMS values in AC power calculation (V_rms = V₀ / √2, I_rms = I₀ / √2).",
+      "Assuming DC formulas apply to AC inductive circuits without accounting for reactive impedance."
+    ],
+    "shortTricks": [
+      "Remember CIVIL: in Capacitor (C), Current (I) leads Voltage (V); in Inductor (L), Voltage (V) leads Current (I).",
+      "In series LCR at resonance, voltage across inductor and capacitor are equal and 180° out of phase, so V_LC = 0."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2"]
+  },
+  {
+    "id": "phy-12-05",
+    "name": "Optics (Ray and Wave)",
+    "nameHi": "प्रकाशिकी (किरण एवं तरंग)",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 14: Optics",
+    "unitHi": "इकाई 14: प्रकाशिकी",
+    "weightagePercentage": 9.5,
+    "avgQuestionsPerYear": 5,
+    "ncertChapterNumber": 9,
+    "ncertBook": "NCERT Class 12 Physics Part 2 (Ray Optics & Wave Optics)",
+    "topics": [
+      { "name": "Refraction at Spherical Surfaces, Lens Maker's Formula & Thin Lens Combinations", "nameHi": "गोलीय सतहों पर अपवर्तन, लेंस निर्माता सूत्र", "isHighYield": true },
+      { "name": "Total Internal Reflection (TIR) & Optical Fibers", "nameHi": "पूर्ण आंतरिक परावर्तन", "isHighYield": true },
+      { "name": "Refraction through Prism, Minimum Deviation & Dispersion", "nameHi": "प्रिज्म द्वारा अपवर्तन, न्यूनतम विचलन", "isHighYield": true },
+      { "name": "Optical Instruments: Compound Microscope & Astronomical Telescope", "nameHi": "प्रकाशिक यंत्र: सूक्ष्मदर्शी एवं दूरदर्शी", "isHighYield": true },
+      { "name": "Wavefronts, Huygens' Principle, Interference & Young's Double Slit Experiment (YDSE)", "nameHi": "तरंगाग्र, हाइगेंस सिद्धांत, यंग का द्वि-स्लिट प्रयोग (YDSE)", "isHighYield": true },
+      { "name": "Diffraction at Single Slit & Central Maximum Width", "nameHi": "एकल स्लिट विवर्तन", "isHighYield": true }
+    ],
+    "nmcNotes": "Resolving power of microscope/telescope and Polarisation were trimmed/deleted in NMC syllabus. YDSE fringe width and Lens Maker's formula are ultra high yield.",
+    "keyConcepts": [
+      "Lens Maker's Formula: 1/f = (μ - 1) [1/R₁ - 1/R₂].",
+      "Total Internal Reflection condition: light travels from denser to rarer medium and angle of incidence i > critical angle C (sin C = 1/μ).",
+      "YDSE fringe width β = λ D / d. Position of nth bright fringe y_n = n λ D / d; nth dark fringe y_n = (2n - 1) λ D / (2d).",
+      "Single slit diffraction: Central maximum width = 2 λ D / a (twice the width of secondary maxima)."
+    ],
+    "formulaHints": [
+      "Prism: μ = sin[(A + δ_m)/2] / sin(A/2); For thin prism: δ = (μ - 1)A",
+      "Combination of lenses in contact: 1/F = 1/f₁ + 1/f₂; Power P = P₁ + P₂",
+      "Astronomical Telescope: Magnification m = -f_o / f_e (normal adjustment); Length L = f_o + f_e",
+      "Compound Microscope: m = -(L / f_o) · (D / f_e)"
+    ],
+    "commonMistakes": [
+      "Mixing up sign conventions for focal length (Convex lens f > 0, Concave lens f < 0; Convex mirror f > 0, Concave mirror f < 0).",
+      "Confusing condition for minima in diffraction (a sinθ = nλ) with maxima in YDSE (d sinθ = nλ)."
+    ],
+    "shortTricks": [
+      "When YDSE apparatus is immersed in liquid of refractive index μ, fringe width decreases: β' = β / μ.",
+      "If a convex lens of index μ_g is placed in liquid of index μ_l: if μ_l > μ_g, lens changes its nature (convex behaves as concave)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2", "DC Pandey Optics"]
+  },
+  {
+    "id": "phy-12-06",
+    "name": "Modern Physics (Dual Nature, Atoms, Nuclei)",
+    "nameHi": "आधुनिक भौतिकी (द्वैत प्रकृति, परमाणु, नाभिक)",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 15: Dual Nature of Matter and Radiation, Atoms and Nuclei",
+    "unitHi": "इकाई 15: विकिरण तथा द्रव्य की द्वैत प्रकृति, परमाणु एवं नाभिक",
+    "weightagePercentage": 9.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 11,
+    "ncertBook": "NCERT Class 12 Physics Part 2 (Dual Nature, Atoms, Nuclei)",
+    "topics": [
+      { "name": "Photoelectric Effect, Einstein's Equation, Stopping Potential & Work Function", "nameHi": "प्रकाश विद्युत प्रभाव, आइंस्टाइन समीकरण, निरोधी विभव", "isHighYield": true },
+      { "name": "de Broglie Wavelength of Particles and Electrons", "nameHi": "दे ब्रॉग्ली तरंगदैर्ध्य", "isHighYield": true },
+      { "name": "Bohr Model of Hydrogen Atom: Radii, Velocity, Energy Levels & Spectral Series", "nameHi": "हाइड्रोजन परमाणु का बोर मॉडल, ऊर्जा स्तर, स्पेक्ट्रमी श्रेणियां", "isHighYield": true },
+      { "name": "Mass Defect, Binding Energy per Nucleon & Nuclear Fission/Fusion", "nameHi": "द्रव्यमान क्षति, प्रति न्यूक्लियॉन बंधन ऊर्जा", "isHighYield": true }
+    ],
+    "nmcNotes": "Davisson-Germer experiment and Radioactivity (alpha, beta, gamma decay law) were deleted in NMC revised syllabus.",
+    "keyConcepts": [
+      "Einstein's Photoelectric equation: K_max = hν - Φ = e V_0.",
+      "Stopping potential V_0 depends ONLY on frequency of light and work function, NOT on light intensity.",
+      "Photoelectric current is directly proportional to intensity of incident radiation.",
+      "de Broglie wavelength: λ = h / p = h / √(2mK) = 12.27 / √V Å for electron accelerated through V volts.",
+      "Bohr radii r_n = 0.529 (n² / Z) Å; Energy E_n = -13.6 (Z² / n²) eV."
+    ],
+    "formulaHints": [
+      "Rydberg formula: 1/λ = R Z² (1/n₁² - 1/n₂²)",
+      "Spectral Series: Lyman (n₁=1, UV), Balmer (n₁=2, Visible), Paschen (n₁=3, IR), Brackett (n₁=4, IR), Pfund (n₁=5, IR)",
+      "Nuclear radius: R = R₀ A^(1/3) (where R₀ ≈ 1.2 × 10⁻¹⁵ m); Nuclear density is constant (~2.3 × 10¹⁷ kg/m³)"
+    ],
+    "commonMistakes": [
+      "Thinking increasing light intensity increases the kinetic energy of emitted photoelectrons (intensity only increases photon count and photocurrent).",
+      "Confusing shortest wavelength (series limit, n₂=∞) with longest wavelength (first line, n₂=n₁+1)."
+    ],
+    "shortTricks": [
+      "Ratio of shortest wavelength to longest wavelength in Lyman series = 3/4; in Balmer series = 5/9.",
+      "For electron accelerated through V: λ = 1.227 / √V nm."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2"]
+  },
+  {
+    "id": "phy-12-07",
+    "name": "Semiconductors and Electronic Devices",
+    "nameHi": "अर्धचालक इलेक्ट्रॉनिकी",
+    "subject": "Physics",
+    "classLevel": 12,
+    "unit": "Unit 16: Electronic Devices",
+    "unitHi": "इकाई 16: इलेक्ट्रॉनिक युक्तियां",
+    "weightagePercentage": 6.5,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 14,
+    "ncertBook": "NCERT Class 12 Physics Part 2 (Semiconductor Electronics)",
+    "topics": [
+      { "name": "Energy Bands in Solids, Intrinsic and Extrinsic Semiconductors (p-type, n-type)", "nameHi": "ऊर्जा बैंड, नैज एवं अपद्रव्यी अर्धचालक", "isHighYield": true },
+      { "name": "p-n Junction Diode: Forward & Reverse Bias, V-I Characteristics", "nameHi": "p-n संधि डायोड: अग्र एवं पश्च अभिनति", "isHighYield": true },
+      { "name": "Diode as Rectifier: Half-wave and Full-wave Rectification", "nameHi": "दिष्टकारी के रूप में डायोड (अर्ध-तरंग एवं पूर्ण-तरंग)", "isHighYield": true },
+      { "name": "Optoelectronic Junction Devices: Photodiode, LED, Solar Cell", "nameHi": "प्रकाशिक इलेक्ट्रॉनिक युक्तियां: फोटोडायोड, LED, सौर सेल", "isHighYield": true },
+      { "name": "Logic Gates: AND, OR, NOT, NAND, NOR & Truth Tables", "nameHi": "तर्क द्वार (Logic Gates): सत्यता सारणी", "isHighYield": true }
+    ],
+    "nmcNotes": "Transistors (BJT) and Zener diode as voltage regulator were deleted from theory in NCERT/NMC, but Logic Gates and p-n junction diodes are consistently asked every single year.",
+    "keyConcepts": [
+      "Intrinsic: n_e = n_h = n_i. Law of mass action: n_e · n_h = n_i².",
+      "In p-type (Group 13 dopant: B, Al, In, Ga): n_h >> n_e; in n-type (Group 15 dopant: P, As, Sb): n_e >> n_h.",
+      "In forward bias, depletion layer width decreases and barrier potential decreases; in reverse bias, width increases.",
+      "Photodiode is ALWAYS operated in reverse bias because fractional change in minority carrier current is much easier to measure.",
+      "NAND and NOR are universal gates (any Boolean function can be constructed using only NAND or only NOR)."
+    ],
+    "formulaHints": [
+      "Half wave rectifier frequency = f_in; Full wave rectifier output frequency = 2 f_in",
+      "De Morgan's Laws: (A + B)' = A' · B'; (A · B)' = A' + B'"
+    ],
+    "commonMistakes": [
+      "Assuming doped semiconductor carries net electric charge. Semiconductors are ALWAYS electrically neutral overall!",
+      "Confusing forward bias connection: Forward bias requires p-side connected to positive terminal (higher potential) and n-side to negative terminal."
+    ],
+    "shortTricks": [
+      "NAND gate with inputs joined together acts as NOT gate. NOR gate with inputs joined together acts as NOT gate.",
+      "Solar cell does not require external bias; it generates voltage by photovoltaic effect (worked in 4th quadrant of V-I graph)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Physics", "HC Verma Vol 2"]
+  }
+]

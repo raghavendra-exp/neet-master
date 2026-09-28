@@ -1,0 +1,610 @@
+[
+  {
+    "id": "chem-11-01",
+    "name": "Some Basic Concepts of Chemistry (Mole Concept)",
+    "nameHi": "रसायन विज्ञान की कुछ मूल अवधारणाएं (मोल संकल्पना)",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 4.0,
+    "avgQuestionsPerYear": 2,
+    "ncertChapterNumber": 1,
+    "ncertBook": "NCERT Class 11 Chemistry Part 1",
+    "topics": [
+      { "name": "Atomic & Molecular Masses, Mole Concept & Molar Mass", "nameHi": "परमाण्विक एवं आण्विक द्रव्यमान, मोल संकल्पना", "isHighYield": true },
+      { "name": "Percentage Composition, Empirical & Molecular Formula", "nameHi": "प्रतिशत संघटन, मूलानुपाती एवं आण्विक सूत्र", "isHighYield": true },
+      { "name": "Stoichiometry & Calculations Based on Stoichiometry, Limiting Reagent", "nameHi": "रससमीकरणमिति एवं सीमांत अभिकर्मक", "isHighYield": true },
+      { "name": "Concentration Terms: Molarity, Molality, Mole Fraction, ppm", "nameHi": "सांद्रता पद: मोलरता, मोललता, मोल अंश, ppm", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "1 Mole = 6.022 × 10²³ particles (Avogadro Number N_A).",
+      "Limiting Reagent is the reactant that is completely consumed first in a reaction and dictates the maximum amount of product formed.",
+      "Molality (m = moles of solute / kg of solvent) is INDEPENDENT of temperature, whereas Molarity (M = moles of solute / Volume of solution in L) depends on temperature.",
+      "Dilution Formula: M₁V₁ = M₂V₂; Mixing solutions: M_mix = (M₁V₁ + M₂V₂) / (V₁ + V₂)."
+    ],
+    "formulaHints": [
+      "Number of moles n = Weight (g) / Molar Mass = N / N_A = Volume at STP (L) / 22.4 L (or 22.7 L under standard IUPAC bar)",
+      "Empirical formula weight × n = Molecular formula weight",
+      "Molality from Molarity: m = 1000M / (1000d - M · M_solute)"
+    ],
+    "commonMistakes": [
+      "Dividing by mass of solution instead of mass of SOLVENT when calculating molality.",
+      "Identifying limiting reagent merely by smallest initial mass rather than dividing available moles by their stoichiometric coefficients."
+    ],
+    "shortTricks": [
+      "Limiting Reagent Rule: Calculate (Moles / Stoichiometric Coefficient) for each reactant. The smallest value is strictly the limiting reagent.",
+      "For gas reactions at same T and P, volume ratio is directly the mole ratio (Gay-Lussac's Law)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry Part 1", "Physical Chemistry by N. Awasthi", "MTG NCERT at your Fingertips Chemistry"]
+  },
+  {
+    "id": "chem-11-02",
+    "name": "Structure of Atom",
+    "nameHi": "परमाणु की संरचना",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 5.0,
+    "avgQuestionsPerYear": 2,
+    "ncertChapterNumber": 2,
+    "ncertBook": "NCERT Class 11 Chemistry Part 1",
+    "topics": [
+      { "name": "Bohr's Model of Hydrogen Atom & Limitations", "nameHi": "हाइड्रोजन परमाणु का बोर मॉडल", "isHighYield": true },
+      { "name": "Dual Nature of Matter & de Broglie Relation", "nameHi": "द्रव्य की द्वैत प्रकृति एवं दे ब्रॉग्ली संबंध", "isHighYield": true },
+      { "name": "Heisenberg's Uncertainty Principle: Δx · Δp ≥ h / 4π", "nameHi": "हाइजेनबर्ग का अनिश्चितता सिद्धांत", "isHighYield": true },
+      { "name": "Quantum Numbers (n, l, m_l, m_s) & Shapes of Orbitals", "nameHi": "क्वांटम संख्याएं एवं कक्षकों की आकृतियां", "isHighYield": true },
+      { "name": "Aufbau Principle, Pauli's Exclusion Principle & Hund's Rule of Maximum Multiplicity", "nameHi": "आउफबाऊ नियम, पाउली का अपवर्जन नियम, हुंड का नियम", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Four Quantum Numbers: Principal (n: shell/size), Azimuthal (l: subshell/shape, 0 to n-1), Magnetic (m_l: orientation, -l to +l), Spin (m_s: ±1/2).",
+      "Total nodes = n - 1; Radial nodes = n - l - 1; Angular nodes = l.",
+      "Aufbau Rule: Orbitals are filled in order of increasing (n + l). If (n + l) is same, lower n is filled first.",
+      "Anomalous electronic configurations due to half-filled and fully-filled extra stability: Cr (3d⁵ 4s¹) and Cu (3d¹⁰ 4s¹)."
+    ],
+    "formulaHints": [
+      "Bohr Radius: r_n = 0.529 n² / Z Å; Bohr Energy: E_n = -2.18 × 10⁻¹⁸ (Z² / n²) J = -13.6 (Z² / n²) eV",
+      "Orbital angular momentum: L = √[l(l + 1)] · h / 2π",
+      "Spin-only magnetic moment: μ = √[n(n + 2)] BM (where n = number of unpaired electrons)"
+    ],
+    "commonMistakes": [
+      "Confusing radial nodes (n - l - 1) with angular nodes (l). For example, 3p orbital has n=3, l=1: Radial nodes = 3-1-1 = 1; Angular nodes = 1.",
+      "Writing electronic configuration of Cr as 3d⁴ 4s² instead of 3d⁵ 4s¹."
+    ],
+    "shortTricks": [
+      "Maximum electrons in a shell = 2n²; Maximum electrons in a subshell = 2(2l + 1); Number of orbitals in a shell = n².",
+      "Degeneracy of hydrogen atom orbitals depends ONLY on principal quantum number n (e.g., 3s, 3p, 3d all have same energy in H-atom, degeneracy = n² = 9)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry", "N. Awasthi Physical Chemistry"]
+  },
+  {
+    "id": "chem-11-03",
+    "name": "Classification of Elements and Periodicity in Properties",
+    "nameHi": "तत्वों का वर्गीकरण एवं गुणधर्मों में आवर्तिता",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Inorganic Chemistry",
+    "unitHi": "अकार्बनिक रसायन",
+    "weightagePercentage": 5.0,
+    "avgQuestionsPerYear": 2,
+    "ncertChapterNumber": 3,
+    "ncertBook": "NCERT Class 11 Chemistry Part 1",
+    "topics": [
+      { "name": "Modern Periodic Table & IUPAC Nomenclature for Elements Z > 100", "nameHi": "आधुनिक आवर्त सारणी एवं Z > 100 का IUPAC नामकरण", "isHighYield": true },
+      { "name": "Periodic Trends: Atomic & Ionic Radii, Isoelectronic Species", "nameHi": "परमाण्विक एवं आयनिक त्रिज्या, समइलेक्ट्रॉनी स्पीशीज", "isHighYield": true },
+      { "name": "Ionization Enthalpy Trends & Key Anomalies (Be > B, N > O)", "nameHi": "आयनन एन्थैल्पी की प्रवृत्तियां एवं अपवाद (Be > B, N > O)", "isHighYield": true },
+      { "name": "Electron Gain Enthalpy Trends (Cl > F, S > O) & Electronegativity (Pauling Scale)", "nameHi": "इलेक्ट्रॉन लब्धि एन्थैल्पी (Cl > F, S > O) एवं विद्युतऋणात्मकता", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Isoelectronic Species: As positive charge increases, ionic radius decreases; as negative charge increases, radius increases (e.g., O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺).",
+      "Ionization Enthalpy Exception 1: Be (1s² 2s², fully filled) > B (1s² 2s² 2p¹); Exception 2: N (1s² 2s² 2p³, half filled) > O (1s² 2s² 2p⁴).",
+      "Electron Gain Enthalpy Exception: Chlorine has MORE negative electron gain enthalpy than Fluorine due to small size and high inter-electronic repulsion in 2p subshell of Fluorine (same for S > O)."
+    ],
+    "formulaHints": [
+      "Effective Nuclear Charge Z_eff = Z - σ (Slater's Rules)",
+      "Electronegativity order: F (4.0) > O (3.5) > N (3.0) ≈ Cl (3.0) > Br (2.8) > I (2.5) ≈ C (2.5) > H (2.1)"
+    ],
+    "commonMistakes": [
+      "Thinking Fluorine has the highest electron gain enthalpy. Fluorine has the highest ELECTRONEGATIVITY, but Chlorine has the highest ELECTRON GAIN ENTHALPY.",
+      "Predicting B > Be in 1st ionization enthalpy (Be is greater due to stable 2s² configuration and higher penetration of s-orbitals)."
+    ],
+    "shortTricks": [
+      "In isoelectronic series, radius ∝ 1 / Z (atomic number). Just look at atomic number: smaller Z = larger radius.",
+      "Noble gases have the largest atomic radius in their respective period because their radius is measured as Van der Waals radius."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry", "VK Jaiswal Inorganic Chemistry"]
+  },
+  {
+    "id": "chem-11-04",
+    "name": "Chemical Bonding and Molecular Structure",
+    "nameHi": "रासायनिक आबंधन तथा आण्विक संरचना",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Inorganic Chemistry",
+    "unitHi": "अकार्बनिक रसायन",
+    "weightagePercentage": 9.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 4,
+    "ncertBook": "NCERT Class 11 Chemistry Part 1",
+    "topics": [
+      { "name": "Kossel-Lewis Approach, Octet Rule, Formal Charge, Lattice Enthalpy", "nameHi": "लुईस संरचना, अष्टक नियम, फॉर्मल आवेश", "isHighYield": true },
+      { "name": "VSEPR Theory: Geometry vs Shape, Lone Pair-Bond Pair Repulsion", "nameHi": "VSEPR सिद्धांत: ज्यामिति एवं आकृति", "isHighYield": true },
+      { "name": "Hybridization (sp, sp², sp³, sp³d, sp³d²) & Dipole Moment", "nameHi": "संकरण एवं द्विध्रुव आघूर्ण", "isHighYield": true },
+      { "name": "Molecular Orbital Theory (MOT): Bond Order, Magnetic Nature of O₂, N₂, B₂, C₂", "nameHi": "आण्विक कक्षक सिद्धांत (MOT): बंध कोटि एवं चुंबकीय गुण", "isHighYield": true },
+      { "name": "Hydrogen Bonding (Intermolecular vs Intramolecular)", "nameHi": "हाइड्रोजन आबंधन (अंतर-आण्विक व अंतः-आण्विक)", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "VSEPR Repulsion Order: Lone pair - Lone pair > Lone pair - Bond pair > Bond pair - Bond pair.",
+      "Steric Number = Number of bonded atoms + Lone pairs. Steric 2: linear; 3: trigonal planar; 4: tetrahedral; 5: trigonal bipyramidal; 6: octahedral.",
+      "Molecular Orbital Theory: For ≤ 14 electrons (e.g. N₂), σ2p_z is higher in energy than π2p_x, π2p_y. For > 14 electrons (e.g. O₂, F₂), σ2p_z is lower.",
+      "Bond Order = 0.5 × (N_b - N_a). If Bond Order > 0, molecule exists. Higher bond order = shorter bond length, higher bond dissociation energy.",
+      "O₂ is PARAMAGNETIC with 2 unpaired electrons in π*2p antibonding orbitals."
+    ],
+    "formulaHints": [
+      "Steric Number SN = 0.5 [V + M - C + A] (V = valence electrons of central atom, M = monovalent surrounding atoms, C = cation charge, A = anion charge)",
+      "Dipole moment μ = q × d (1 Debye = 3.33564 × 10⁻³⁰ C·m)",
+      "Bond order trick for diatomics (14 e⁻ = 3.0, each 1 e⁻ step away reduces bond order by 0.5)"
+    ],
+    "commonMistakes": [
+      "Calling shape of XeF₄ tetrahedral (Steric number 6 with 2 lone pairs = Square Planar).",
+      "Calling NF₃ more polar than NH₃. NH₃ has much higher dipole moment (1.47 D) because lone pair and N-H bond dipoles reinforce each other, whereas in NF₃ they oppose."
+    ],
+    "shortTricks": [
+      "Bond order memory scale: 14 e⁻ (N₂) = 3.0; 13 or 15 e⁻ (N₂⁺, O₂⁺) = 2.5; 12 or 16 e⁻ (C₂, O₂) = 2.0; 11 or 17 e⁻ = 1.5; 10 or 18 e⁻ = 1.0.",
+      "Any species with odd electrons or fractional bond order is GUARANTEED to be paramagnetic."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry", "VK Jaiswal Inorganic Chemistry", "JD Lee Concise Inorganic Chemistry"]
+  },
+  {
+    "id": "chem-11-05",
+    "name": "Chemical Thermodynamics",
+    "nameHi": "रासायनिक ऊष्मागतिकी",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 6,
+    "ncertBook": "NCERT Class 11 Chemistry Part 1",
+    "topics": [
+      { "name": "State Functions, Extensive vs Intensive Properties, First Law: ΔU = q + w", "nameHi": "अवस्था फलन, गहन एवं विस्तीर्ण गुणधर्म, प्रथम नियम", "isHighYield": true },
+      { "name": "Work of Expansion: Irreversible w = -P_ext ΔV vs Reversible Isothermal w = -2.303 nRT log(V₂/V₁)", "nameHi": "प्रसार कार्य: उत्क्रमणीय एवं अनुत्क्रमणीय", "isHighYield": true },
+      { "name": "Enthalpy: ΔH = ΔU + Δn_g RT & Hess's Law of Constant Heat Summation", "nameHi": "एन्थैल्पी: ΔH = ΔU + Δn_g RT एवं हेस का नियम", "isHighYield": true },
+      { "name": "Entropy (S) & Second Law of Thermodynamics: ΔS_total > 0 for spontaneous process", "nameHi": "एन्ट्रॉपी एवं ऊष्मागतिकी का द्वितीय नियम", "isHighYield": true },
+      { "name": "Gibbs Free Energy (ΔG = ΔH - TΔS) & Spontaneity Criteria, ΔG° = -RT ln K", "nameHi": "गिब्स मुक्त ऊर्जा एवं स्वतःप्रवर्तिता", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "IUPAC sign convention: Work done ON system is positive (+w), work done BY system is negative (-w). Heat absorbed is positive (+q), heat released is negative (-q).",
+      "Spontaneity: For spontaneous process at constant T and P, ΔG < 0. At equilibrium, ΔG = 0.",
+      "If ΔH < 0 and ΔS > 0: Spontaneous at ALL temperatures.",
+      "If ΔH > 0 and ΔS < 0: Non-spontaneous at ALL temperatures."
+    ],
+    "formulaHints": [
+      "ΔH = ΔU + Δn_g RT (where Δn_g = moles of gaseous products - moles of gaseous reactants)",
+      "ΔG° = -2.303 RT log₁₀ K_eq",
+      "Standard enthalpy of formation Δ_f H° of pure elements in standard state is ZERO (e.g. O₂(g), C(graphite), Br₂(l), I₂(s))"
+    ],
+    "commonMistakes": [
+      "Assuming C(diamond) has Δ_f H° = 0. Graphite is the thermodynamic reference state of carbon, so Δ_f H°(graphite) = 0, but Δ_f H°(diamond) = 1.9 kJ/mol.",
+      "Forgetting to convert ΔH from kJ to J when using ΔG = ΔH - TΔS (since ΔS is usually given in J/K·mol)."
+    ],
+    "shortTricks": [
+      "Temperature at which a reaction becomes spontaneous (cross-over temperature): T = ΔH / ΔS.",
+      "Free expansion of ideal gas into vacuum (P_ext = 0) in insulated container: w = 0, q = 0, ΔU = 0, ΔT = 0."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry", "N. Awasthi Physical Chemistry"]
+  },
+  {
+    "id": "chem-11-06",
+    "name": "Equilibrium (Chemical & Ionic)",
+    "nameHi": "साम्यावस्था (रासायनिक एवं आयनिक)",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 8.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 7,
+    "ncertBook": "NCERT Class 11 Chemistry Part 1",
+    "topics": [
+      { "name": "Law of Chemical Equilibrium, K_p and K_c Relationship: K_p = K_c (RT)^Δn_g", "nameHi": "रासायनिक साम्य का नियम, K_p व K_c संबंध", "isHighYield": true },
+      { "name": "Le Chatelier's Principle (Effect of Concentration, Temperature, Pressure, Inert Gas)", "nameHi": "ला शातेलिए का नियम", "isHighYield": true },
+      { "name": "Acid-Base Concepts (Arrhenius, Bronsted-Lowry, Lewis), Ionization of Water (K_w)", "nameHi": "अम्ल-क्षार संकल्पनाएं, जल का आयनिक गुणनफल", "isHighYield": true },
+      { "name": "pH Scale, Ostwald's Dilution Law & Common Ion Effect", "nameHi": "pH पैमाना, ओस्टवाल्ड का तनुता नियम, सम आयन प्रभाव", "isHighYield": true },
+      { "name": "Buffer Solutions (Henderson-Hasselbalch Equation) & Salt Hydrolysis", "nameHi": "बफर विलयन (हेंडरसन समीकरण) एवं लवण जल-अपघटन", "isHighYield": true },
+      { "name": "Solubility Product (K_sp) & Common Ion Effect in Precipitation", "nameHi": "विलेयता गुणनफल (K_sp) एवं अवक्षेपण", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Le Chatelier's Principle: Adding inert gas at CONSTANT VOLUME causes NO SHIFT in equilibrium. Adding inert gas at CONSTANT PRESSURE shifts toward the side with more gaseous moles.",
+      "Endothermic reactions: K increases as Temperature increases. Exothermic reactions: K decreases as Temperature increases.",
+      "Buffer Solution: Acidic Buffer (Weak Acid + Conjugate Base salt, e.g. CH₃COOH + CH₃COONa): pH = pK_a + log([Salt]/[Acid]).",
+      "Condition for precipitation: Ionic Product Q_sp > K_sp."
+    ],
+    "formulaHints": [
+      "pH = -log₁₀[H⁺]; pH + pOH = 14 (at 25°C, where K_w = 10⁻¹⁴)",
+      "Weak acid pH = 0.5 (pK_a - log C); [H⁺] = √(K_a · C)",
+      "Salt of Weak Acid + Strong Base: pH = 7 + 0.5(pK_a + log C)",
+      "Salt of Strong Acid + Weak Base: pH = 7 - 0.5(pK_b + log C)",
+      "Salt of Weak Acid + Weak Base: pH = 7 + 0.5(pK_a - pK_b)"
+    ],
+    "commonMistakes": [
+      "Calculating pH of 10⁻⁸ M HCl as 8.0. An acidic solution can NEVER have pH > 7! Must include water dissociation: [H⁺]_total = 10⁻⁸ + 10⁻⁷ = 1.1 × 10⁻⁷ M → pH ≈ 6.96.",
+      "Changing K_c or K_p when concentration or pressure changes. Equilibrium constant K changes ONLY with Temperature."
+    ],
+    "shortTricks": [
+      "For salt A_x B_y dissolving to give s solubility: K_sp = x^x · y^y · s^(x+y). For AB (e.g. AgCl): K_sp = s²; For AB₂ (e.g. CaF₂): K_sp = 4s³; For AB₃: K_sp = 27s⁴; For A₂B₃: K_sp = 108s⁵."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry", "N. Awasthi Physical Chemistry"]
+  },
+  {
+    "id": "chem-11-07",
+    "name": "Organic Chemistry - Some Basic Principles and Techniques (GOC)",
+    "nameHi": "कार्बनिक रसायन - कुछ आधारभूत सिद्धांत तथा तकनीकें (GOC)",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Organic Chemistry",
+    "unitHi": "कार्बनिक रसायन",
+    "weightagePercentage": 9.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 12,
+    "ncertBook": "NCERT Class 11 Chemistry Part 2",
+    "topics": [
+      { "name": "IUPAC Nomenclature of Polyfunctional Organic Compounds", "nameHi": "बहुक्रियात्मक कार्बनिक यौगिकों का IUPAC नामकरण", "isHighYield": true },
+      { "name": "Isomerism: Structural (Chain, Position, Functional, Metamerism, Tautomerism) & Stereoisomerism (Geometrical, Optical)", "nameHi": "समावयवता: संरचनात्मक एवं त्रिविम समावयवता", "isHighYield": true },
+      { "name": "Electronic Displacements: Inductive Effect, Resonance/Mesomeric Effect, Hyperconjugation & Electromeric Effect", "nameHi": "इलेक्ट्रॉनिक प्रभाव: प्रेरणिक, अनुनाद, अतिसंयुग्मन", "isHighYield": true },
+      { "name": "Stability of Reaction Intermediates: Carbocations, Carbanions, Free Radicals", "nameHi": "मध्यवर्तियों का स्थायित्व: कार्बोकैटायन, कार्बऋणायन, मुक्त मूलक", "isHighYield": true },
+      { "name": "Acidic and Basic Strength of Organic Compounds", "nameHi": "कार्बनिक यौगिकों का अम्लीय एवं क्षारीय सामर्थ्य", "isHighYield": true },
+      { "name": "Purification Techniques: Chromatography & Qualitative/Quantitative Analysis (Dumas, Kjeldahl)", "nameHi": "शोधन तकनीकें: क्रोमैटोग्राफी, ड्यूमा व जेल्डाल विधि", "isHighYield": true, "isNmcAdded": true }
+    ],
+    "nmcNotes": "Chromatography and detection of elements (Lassaigne test) and estimation of N, halogens, S, P are core practical organic topics tested vigorously.",
+    "keyConcepts": [
+      "Carbocation Stability: 3° > 2° > 1° > CH₃⁺ (stabilized by +M, Hyperconjugation, +I).",
+      "Carbanion Stability: CH₃⁻ > 1° > 2° > 3° (stabilized by -M, -I, higher s-character: sp > sp² > sp³).",
+      "Acidity of Carboxylic Acids / Phenols: Enhanced by electron-withdrawing groups (-M, -I), decreased by electron-donating groups (+M, +I).",
+      "Ortho effect in benzoic acids makes substituted ortho-benzoic acids always stronger than benzoic acid regardless of nature of substituent."
+    ],
+    "formulaHints": [
+      "Kjeldahl's Nitrogen % = (1.4 × N × V) / Mass of organic compound",
+      "Dumas Nitrogen % = (28 / 22400) × (V_N2 at STP / W) × 100%",
+      "Carius Halogen % = (Atomic weight of X / Molecular weight of AgX) × (Mass of AgX / W) × 100%"
+    ],
+    "commonMistakes": [
+      "Applying Kjeldahl's method to nitro (-NO₂), azo (-N=N-), or nitrogen in pyridine ring (Kjeldahl method FAILS for these because nitrogen is not converted to ammonium sulfate).",
+      "Confusing mesomeric (+M) with inductive (-I) for halogens attached to benzene ring (Halogens are deactivating due to strong -I, but ortho/para directing due to +M)."
+    ],
+    "shortTricks": [
+      "Acidic Strength Trick: Strong acid has stable conjugate base. Check conjugate base stability: Anion on more electronegative atom, resonance dispersal, -M > -H > -I.",
+      "Basic Strength in aqueous solution of aliphatic amines: For ethyl group: 2° > 3° > 1° > NH₃ (213); For methyl group: 2° > 1° > 3° > NH₃ (213 rule)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry Part 2", "Organic Chemistry by MS Chouhan", "Himanshu Pandey Organic Chemistry"]
+  },
+  {
+    "id": "chem-11-08",
+    "name": "Hydrocarbons",
+    "nameHi": "हाइड्रोकार्बन",
+    "subject": "Chemistry",
+    "classLevel": 11,
+    "unit": "Organic Chemistry",
+    "unitHi": "कार्बनिक रसायन",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 13,
+    "ncertBook": "NCERT Class 11 Chemistry Part 2",
+    "topics": [
+      { "name": "Alkanes: Free Radical Halogenation Mechanism, Wurtz Reaction, Decarboxylation", "nameHi": "ऐल्केन: मुक्त मूलक हैलोजनीकरण, वुर्ट्ज अभिक्रिया", "isHighYield": true },
+      { "name": "Conformations of Ethane and Butane (Sawhorse and Newman Projections)", "nameHi": "एथेन एवं ब्यूटेन के संरूपण", "isHighYield": true },
+      { "name": "Alkenes: Electrophilic Addition, Markovnikov's & Anti-Markovnikov's (Peroxide Effect) Rule", "nameHi": "ऐल्कीन: मारकोवनीकॉफ एवं खराश प्रभाव", "isHighYield": true },
+      { "name": "Ozonolysis of Alkenes & Alkynes (Reductive vs Oxidative)", "nameHi": "ओजोनी-अपघटन", "isHighYield": true },
+      { "name": "Alkynes: Acidity of Terminal Alkynes, Addition of Water (Kuecheroff Reaction)", "nameHi": "ऐल्काइन: अम्लीय प्रकृति, जल योजन", "isHighYield": true },
+      { "name": "Aromatic Hydrocarbons: Huckel's Rule (4n + 2)π electrons, Electrophilic Aromatic Substitution (Nitration, Friedel-Crafts)", "nameHi": "ऐरोमैटिक हाइड्रोकार्बन: हकल नियम, इलेक्ट्रॉनरागी प्रतिस्थापन", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Wurtz Reaction: 2 R-X + 2 Na (dry ether) → R-R + 2 NaX (good only for symmetrical alkanes with even number of carbons).",
+      "Markovnikov's Rule: In electrophilic addition to unsymmetrical alkene, positive part (H⁺) attaches to carbon with MORE hydrogen atoms.",
+      "Peroxide / Kharasch Effect: Anti-Markovnikov addition occurs ONLY with HBr in presence of peroxide (NOT with HCl or HI because one step is endothermic).",
+      "Ozonolysis: Double bond is cleanly cleaved; C=C becomes two C=O groups. Reductive (Zn/H₂O) gives aldehydes/ketones; Oxidative (H₂O₂/KMnO₄) oxidizes aldehydes to acids.",
+      "Huckel's Rule: Planar cyclic fully-conjugated rings with (4n + 2) π electrons are aromatic."
+    ],
+    "formulaHints": [
+      "Staggered conformation of ethane is more stable than eclipsed by ~12.5 kJ/mol due to minimal torsional strain.",
+      "Anti conformation of n-butane is the most stable conformer (dihedral angle 180°)."
+    ],
+    "commonMistakes": [
+      "Applying peroxide effect to HCl or HI (Peroxide effect is strictly observed ONLY for HBr!).",
+      "Forgetting that terminal alkynes (e.g. propyne, ethyne) react with Tollens' reagent and ammoniacal cuprous chloride, but non-terminal alkynes (but-2-yne) do not."
+    ],
+    "shortTricks": [
+      "Ozonolysis Trick: Just erase the C=C double bond and stick an oxygen atom (=O) on both ends of the cleaved fragments.",
+      "Electrophilic aromatic substitution: -OH, -NH₂, -CH₃ are ortho/para activating; -NO₂, -CHO, -COOH, -SO₃H are meta deactivating."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Chemistry", "MS Chouhan Organic Chemistry"]
+  },
+  {
+    "id": "chem-12-01",
+    "name": "Solutions",
+    "nameHi": "विलयन",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 6.5,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 1,
+    "ncertBook": "NCERT Class 12 Chemistry Part 1",
+    "topics": [
+      { "name": "Types of Solutions, Solubility of Gases in Liquids & Henry's Law: P = K_H · x", "nameHi": "विलयन के प्रकार, हेनरी का नियम", "isHighYield": true },
+      { "name": "Raoult's Law for Volatile & Non-volatile Solutes", "nameHi": "राउल्ट का नियम", "isHighYield": true },
+      { "name": "Ideal and Non-ideal Solutions: Positive and Negative Deviations & Azeotropes", "nameHi": "आदर्श एवं अनादर्श विलयन: धनात्मक व ऋणात्मक विचलन, स्थिरक्वाथी", "isHighYield": true },
+      { "name": "Colligative Properties: Relative Lowering of Vapor Pressure, Elevation in Boiling Point, Depression in Freezing Point, Osmotic Pressure", "nameHi": "अणुसंख्य गुणधर्म: वाष्प दाब अवनमन, क्वथनांक उन्नयन, हिमांक अवनमन, परासरण दाब", "isHighYield": true },
+      { "name": "Abnormal Molar Mass & Van 't Hoff Factor (i): Association and Dissociation", "nameHi": "असामान्य आण्विक द्रव्यमान एवं वान्ट हॉफ गुणक (i)", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Positive Deviation from Raoult's Law: A-B interaction is weaker than A-A and B-B; ΔH_mix > 0, ΔV_mix > 0, vapor pressure higher than ideal (e.g. Ethanol + Acetone).",
+      "Negative Deviation: A-B interaction is stronger than A-A and B-B; ΔH_mix < 0, ΔV_mix < 0, vapor pressure lower (e.g. Chloroform + Acetone due to H-bonding).",
+      "Osmotic Pressure π = i C R T is the preferred colligative property for determining molar mass of biomolecules (proteins, polymers) because it is measurable at room temperature.",
+      "Van 't Hoff Factor: Dissociation i = 1 + (n - 1)α; Association i = 1 + (1/n - 1)α."
+    ],
+    "formulaHints": [
+      "Relative Lowering of Vapor Pressure: (P° - P_s) / P° = i · x_solute = i (n / (n + N))",
+      "Elevation in Boiling Point: ΔT_b = i · K_b · m",
+      "Depression in Freezing Point: ΔT_f = i · K_f · m",
+      "Osmotic Pressure: π = i · (n/V) · R T"
+    ],
+    "commonMistakes": [
+      "Forgetting Van 't Hoff factor i when calculating colligative properties for ionic solutes like NaCl (i=2), CaCl₂ (i=3), Al₂(SO₄)₃ (i=5).",
+      "Confusing units of R in osmotic pressure: If P is in atm and V in liters, R = 0.0821 L·atm/mol·K."
+    ],
+    "shortTricks": [
+      "Highest boiling point or highest osmotic pressure in equal molarity solutions belongs to the solute with HIGHEST (i × C). Lowest freezing point also belongs to highest (i × C).",
+      "Chloroform + Acetone forms a maximum boiling azeotrope because it shows negative deviation."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry", "N. Awasthi Physical Chemistry"]
+  },
+  {
+    "id": "chem-12-02",
+    "name": "Electrochemistry",
+    "nameHi": "विद्युतरसायन",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 7.5,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 2,
+    "ncertBook": "NCERT Class 12 Chemistry Part 1",
+    "topics": [
+      { "name": "Galvanic Cells, Standard Electrode Potential & Electrochemical Series", "nameHi": "गैल्वैनी सेल, मानक इलेक्ट्रोड विभव", "isHighYield": true },
+      { "name": "Nernst Equation & Applications to Cell EMF and Equilibrium Constant", "nameHi": "नेर्नस्ट समीकरण एवं सेल विभव", "isHighYield": true },
+      { "name": "Gibbs Energy and Cell EMF: ΔG° = -n F E°_cell", "nameHi": "गिब्स ऊर्जा एवं सेल विभव", "isHighYield": true },
+      { "name": "Conductance, Specific Conductivity (κ), Molar Conductivity (Λ_m)", "nameHi": "चालकत्व, विशिष्ट चालकता, मोलर चालकता", "isHighYield": true },
+      { "name": "Kohlrausch's Law of Independent Migration of Ions & Applications", "nameHi": "कोलराउश का नियम एवं अनुप्रयोग", "isHighYield": true },
+      { "name": "Electrolysis & Faraday's Laws: m = Z I t", "nameHi": "विद्युत अपघटन एवं फैराडे के नियम", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "E°_cell = E°_cathode - E°_anode (using standard REDUCTION potentials).",
+      "Reaction is spontaneous if E°_cell > 0 (which means ΔG° < 0).",
+      "Conductivity (κ) DECREASES with dilution because number of ions per unit volume decreases.",
+      "Molar conductivity (Λ_m) INCREASES with dilution for both strong and weak electrolytes (reaches maximum Λ°_m at infinite dilution).",
+      "Faraday's 1st Law: m = (Equivalent Weight / 96500) × I × t."
+    ],
+    "formulaHints": [
+      "Nernst Equation at 298 K: E_cell = E°_cell - (0.0591 / n) log₁₀ Q",
+      "log₁₀ K_c = n E°_cell / 0.0591",
+      "Molar conductivity: Λ_m = 1000 κ / M (in S·cm²·mol⁻¹ when κ is in S·cm⁻¹)",
+      "Degree of dissociation of weak electrolyte: α = Λ_m / Λ°_m"
+    ],
+    "commonMistakes": [
+      "Multiplying electrode potential E° by stoichiometric coefficients when balancing reaction. E° is an INTENSIVE property and NEVER multiplies with stoichiometric coefficients!",
+      "Confusing anode and cathode polarities: In Galvanic cell, Anode is Negative, Cathode is Positive (remember ANOX - Anode Oxidation). In Electrolytic cell, Anode is connected to Positive terminal."
+    ],
+    "shortTricks": [
+      "1 Faraday of charge (96,500 C) deposits 1 gram-equivalent of any substance at the electrode.",
+      "Charge required to reduce 1 mole of MnO₄⁻ to Mn²⁺ is 5 Faraday (change in oxidation state is +7 to +2 = 5)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry", "N. Awasthi Physical Chemistry"]
+  },
+  {
+    "id": "chem-12-03",
+    "name": "Chemical Kinetics",
+    "nameHi": "रासायनिक बलगतिकी",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Physical Chemistry",
+    "unitHi": "भौतिक रसायन",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 3,
+    "ncertBook": "NCERT Class 12 Chemistry Part 1",
+    "topics": [
+      { "name": "Rate of Reaction (Average and Instantaneous), Rate Law & Specific Rate Constant", "nameHi": "अभिक्रिया की दर, दर नियम एवं वेग स्थिरांक", "isHighYield": true },
+      { "name": "Order and Molecularity of a Reaction (Elementary vs Complex)", "nameHi": "अभिक्रिया की कोटि एवं आण्विकता", "isHighYield": true },
+      { "name": "Integrated Rate Equations for Zero and First Order Reactions, Half-life (t_1/2)", "nameHi": "शून्य एवं प्रथम कोटि के समाकलित वेग समीकरण, अर्ध-आयु", "isHighYield": true },
+      { "name": "Pseudo First Order Reactions (Inversion of Cane Sugar, Ester Hydrolysis)", "nameHi": "छद्म प्रथम कोटि अभिक्रियाएं", "isHighYield": true },
+      { "name": "Temperature Dependence of Rate: Arrhenius Equation: k = A e^(-E_a / RT)", "nameHi": "ताप निर्भरता: आरेनियस समीकरण", "isHighYield": true },
+      { "name": "Collision Theory of Chemical Reactions & Activation Energy", "nameHi": "टक्कर सिद्धांत एवं सक्रियण ऊर्जा", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Order can be zero, fractional, or negative, and is determined EXPERIMENTALLY. Molecularity is always a positive integer (1, 2, 3) and applies only to elementary steps.",
+      "First Order Reaction: Integrated rate law k = (2.303 / t) log₁₀(a / (a - x)); Half-life t_1/2 = 0.693 / k is completely INDEPENDENT of initial concentration.",
+      "Zero Order Reaction: Integrated rate law k = (x / t); Half-life t_1/2 = a / (2k) is directly proportional to initial concentration.",
+      "Catalyst increases rate of reaction by providing an alternative pathway with LOWER activation energy, without altering ΔH or equilibrium constant K."
+    ],
+    "formulaHints": [
+      "Units of rate constant k = (mol/L)^(1 - n) · s⁻¹ (where n = order)",
+      "Arrhenius two-temperature formula: log₁₀(k₂ / k₁) = (E_a / 2.303 R) · [(T₂ - T₁) / (T₁ T₂)]",
+      "First order time relationships: t_75% = 2 × t_50%; t_87.5% = 3 × t_50%; t_99.9% ≈ 10 × t_50%"
+    ],
+    "commonMistakes": [
+      "Confusing units of k for different orders: Zero order has units mol·L⁻¹·s⁻¹; First order s⁻¹; Second order L·mol⁻¹·s⁻¹.",
+      "Thinking catalyst shifts the equilibrium position. Catalyst only helps equilibrium to be attained FASTER."
+    ],
+    "shortTricks": [
+      "In first order reaction, time required for 99% completion is twice the time required for 90% completion: t_99% = 2 × t_90%.",
+      "Plot of ln k versus 1/T yields a straight line with slope = -E_a / R and intercept = ln A."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry", "N. Awasthi Physical Chemistry"]
+  },
+  {
+    "id": "chem-12-04",
+    "name": "d and f Block Elements",
+    "nameHi": "d एवं f ब्लॉक के तत्व",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Inorganic Chemistry",
+    "unitHi": "अकार्बनिक रसायन",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 4,
+    "ncertBook": "NCERT Class 12 Chemistry Part 1",
+    "topics": [
+      { "name": "General Characteristics of Transition Metals (3d Series): Radii, Density, Ionization Enthalpy", "nameHi": "संक्रमण तत्वों के सामान्य अभिलक्षण", "isHighYield": true },
+      { "name": "Variable Oxidation States, Catalytic Properties, Magnetic Properties, Colored Ions", "nameHi": "परिवर्ती ऑक्सीकरण अवस्थाएं, रंगीन आयन, चुंबकीय गुण", "isHighYield": true },
+      { "name": "Preparation and Properties of Potassium Dichromate (K₂Cr₂O₇) & Potassium Permanganate (KMnO₄)", "nameHi": "K₂Cr₂O₇ एवं KMnO₄ का विरचन एवं गुणधर्म", "isHighYield": true },
+      { "name": "Lanthanoids: Electronic Configuration, Oxidation States, Lanthanoid Contraction & Consequences", "nameHi": "लैन्थैनॉइड: लैन्थैनॉइड आकुंचन एवं प्रभाव", "isHighYield": true },
+      { "name": "Actinoids: Electronic Configuration, Oxidation States Comparison with Lanthanoids", "nameHi": "ऐक्टिनॉइड: लैन्थैनॉइड से तुलना", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Lanthanoid Contraction: Steady decrease in atomic and ionic radii of lanthanoids due to poor shielding of 4f electrons. Consequence: 4d and 5d series have nearly identical radii (Zr ≈ Hf, Nb ≈ Ta).",
+      "Highest oxidation state in 3d series is +7 shown by Manganese in KMnO₄; Osmium shows +8 in OsO₄.",
+      "K₂Cr₂O₇ in acidic medium acts as strong oxidizing agent: Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O (n-factor = 6).",
+      "KMnO₄: n-factor in acidic medium = 5 (MnO₄⁻ → Mn²⁺); in neutral/weakly alkaline medium = 3 (MnO₄⁻ → MnO₂); in strongly basic medium = 1 (MnO₄⁻ → MnO₄²⁻)."
+    ],
+    "formulaHints": [
+      "Spin-only magnetic moment μ = √[n(n + 2)] BM",
+      "Lanthanoid most common and stable oxidation state = +3; Ce shows +4 (strong oxidant), Eu shows +2 (strong reductant)"
+    ],
+    "commonMistakes": [
+      "Confusing color origin in KMnO₄ and K₂Cr₂O₇: They are colored due to CHARGE TRANSFER spectra (ligand to metal charge transfer LMCT), NOT d-d transition (because Mn⁷⁺ and Cr⁶⁺ have d⁰ configuration!).",
+      "Thinking actinoids have fewer oxidation states than lanthanoids (actinoids exhibit wider range of oxidation states due to comparable energies of 5f, 6d, and 7s)."
+    ],
+    "shortTricks": [
+      "KMnO₄ n-factor mnemonic: BAN 153 (Basic = 1, Acidic = 5, Neutral = 3).",
+      "Chromyl Chloride Test confirms chloride presence: forms deep red fumes of CrO₂Cl₂ which turn NaOH yellow (Na₂CrO₄)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry", "VK Jaiswal Inorganic Chemistry"]
+  },
+  {
+    "id": "chem-12-05",
+    "name": "Coordination Compounds",
+    "nameHi": "उपसहसंयोजन यौगिक",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Inorganic Chemistry",
+    "unitHi": "अकार्बनिक रसायन",
+    "weightagePercentage": 8.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 5,
+    "ncertBook": "NCERT Class 12 Chemistry Part 1",
+    "topics": [
+      { "name": "Werner's Theory: Primary (Ionizable) vs Secondary (Non-ionizable/Coordination Number) Valencies", "nameHi": "वर्नर का सिद्धांत", "isHighYield": true },
+      { "name": "Ligands: Denticity, Ambidentate Ligands, Chelating Ligands & Stability", "nameHi": "लिगेंड: दंतुरता, उभयदंती लिगेंड, कीलेट", "isHighYield": true },
+      { "name": "IUPAC Nomenclature of Coordination Complexes", "nameHi": "उपसहसंयोजन यौगिकों का IUPAC नामकरण", "isHighYield": true },
+      { "name": "Isomerism: Structural (Linkage, Coordination, Ionization, Solvate) & Stereoisomerism (Geometrical, Optical)", "nameHi": "समावयवता: संरचनात्मक एवं त्रिविम", "isHighYield": true },
+      { "name": "Valence Bond Theory (VBT): Inner Orbital (d²sp³) vs Outer Orbital (sp³d²) Complexes", "nameHi": "संयोजकता आबंध सिद्धांत (VBT)", "isHighYield": true },
+      { "name": "Crystal Field Theory (CFT): Octahedral and Tetrahedral Splitting, Spectrochemical Series, CFSE", "nameHi": "क्रिस्टल क्षेत्र सिद्धांत (CFT): अष्टफलकीय व चतुष्फलकीय विपाटन", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Ambidentate Ligands: Ligands having two donor atoms but binding through only one at a time (e.g. NO₂⁻ vs ONO⁻, SCN⁻ vs NCS⁻), giving rise to LINKAGE isomerism.",
+      "Chelate Effect: Complexes with multidentate chelating ligands (e.g. EDTA⁴⁻, en) are significantly more stable than complexes with monodentate ligands due to positive entropy change (ΔS > 0).",
+      "CFT Octahedral Splitting: d-orbitals split into lower t_2g (d_xy, d_yz, d_xz) and higher e_g (d_x²-y², d_z²); Δ_o.",
+      "Tetrahedral Splitting: Δ_t = (4/9) Δ_o; Pairing energy P is always greater than Δ_t, so tetrahedral complexes are ALWAYS high spin.",
+      "Spectrochemical Series: I⁻ < Br⁻ < S²⁻ < SCN⁻ < Cl⁻ < F⁻ < OH⁻ < C₂O₄²⁻ < H₂O < NCS⁻ < EDTA⁴⁻ < NH₃ < en < CN⁻ < CO (Strong field ligands cause pairing)."
+    ],
+    "formulaHints": [
+      "CFSE for octahedral: [-0.4 × n(t_2g) + 0.6 × n(e_g)] Δ_o + m·P",
+      "Number of ions produced in solution: [Co(NH₃)₆]Cl₃ gives 4 ions (1 complex cation + 3 chloride anions), precipitates 3 moles of AgCl with AgNO₃."
+    ],
+    "commonMistakes": [
+      "Naming anionic complexes with standard metal name instead of '-ate' ending (e.g. ferrate, cuprate, cobaltate).",
+      "Assuming tetrahedral complexes show geometrical isomerism (Tetrahedral complexes NEVER show cis-trans isomerism because all positions are adjacent/equivalent)."
+    ],
+    "shortTricks": [
+      "Carbonyls: Carbon monoxide (CO) is the strongest field ligand; back bonding from filled metal d-orbital to empty π* antibonding orbital of CO strengthens M-C bond and weakens C-O bond.",
+      "[Co(NH₃)₆]³⁺ has Co³⁺ (d⁶) with NH₃ acting as strong field ligand → all electrons paired in t_2g⁶ → diamagnetic, low spin, d²sp³."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry", "VK Jaiswal Inorganic Chemistry"]
+  },
+  {
+    "id": "chem-12-06",
+    "name": "Aldehydes, Ketones and Carboxylic Acids",
+    "nameHi": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Organic Chemistry",
+    "unitHi": "कार्बनिक रसायन",
+    "weightagePercentage": 9.0,
+    "avgQuestionsPerYear": 4,
+    "ncertChapterNumber": 8,
+    "ncertBook": "NCERT Class 12 Chemistry Part 2",
+    "topics": [
+      { "name": "Preparation: Rosenmund Reduction, Stephen Reaction, Etard Reaction, Gatterman-Koch Reaction", "nameHi": "विरचन: रोजेनमुंड, स्टीफन, इटार्ड अभिक्रिया", "isHighYield": true },
+      { "name": "Nucleophilic Addition Reactions: Addition of HCN, NaHSO₃, Grignard Reagent, Alcohols, Ammonia derivatives", "nameHi": "नाभिकरागी योगज अभिक्रियाएं", "isHighYield": true },
+      { "name": "Distinction Tests: Tollens' Test, Fehling's Test, Haloform/Iodoform Reaction", "nameHi": "विभेदक परीक्षण: टॉलेन, फेलिंग, आयोडोफॉर्म परीक्षण", "isHighYield": true },
+      { "name": "Reactions due to α-Hydrogen: Aldol Condensation, Cross Aldol Condensation, Cannizzaro Reaction", "nameHi": "ऐल्डोल संघनन, कैनिजारो अभिक्रिया", "isHighYield": true },
+      { "name": "Carboxylic Acids: Acidity, Decarboxylation (Kolbe Electrolysis, Soda-lime) & Hell-Volhard-Zelinsky (HVZ) Reaction", "nameHi": "कार्बोक्सिलिक अम्ल: अम्लीयता, HVZ अभिक्रिया", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Reactivity towards nucleophilic addition: Aldehydes > Ketones (due to less steric hindrance and smaller +I effect of alkyl groups); HCHO > CH₃CHO > CH₃COCH₃.",
+      "Iodoform Test (Yellow precipitate of CHI₃): Given by compounds having CH₃-C=O group or CH₃-CH(OH)- group (e.g., ethanol, acetaldehyde, acetone, 2-pentanone).",
+      "Aldol Condensation: Requires AT LEAST ONE α-hydrogen atom in presence of dilute base (dil. NaOH).",
+      "Cannizzaro Reaction: Undergone by aldehydes LACKING α-hydrogen (HCHO, Benzaldehyde) in concentrated alkali (50% NaOH), disproportionating into an alcohol and a carboxylate salt."
+    ],
+    "formulaHints": [
+      "Rosenmund Reduction: R-COCl + H₂ (Pd/BaSO₄, quinoline) → R-CHO",
+      "HVZ Reaction: R-CH₂-COOH + X₂ / Red P → R-CH(X)-COOH (α-halogenation)",
+      "Tollens' reagent: Ammoniacal silver nitrate [Ag(NH₃)₂]⁺; Fehling's solution: Alkaline Cu²⁺ tartrate (aromatic aldehydes do NOT reduce Fehling's solution!)"
+    ],
+    "commonMistakes": [
+      "Thinking Benzaldehyde reduces Fehling's solution. Benzaldehyde reduces Tollens' reagent but FAILS to reduce Fehling's solution!",
+      "Forgetting that Formic Acid (HCOOH) gives positive Tollens' and Fehling's test because it contains both an aldehyde group and a carboxylic acid group."
+    ],
+    "shortTricks": [
+      "Cannizzaro Disproportionation mnemonic: 'Self-redox when NO alpha-H': 1 molecule oxidizes to acid salt, 1 molecule reduces to alcohol.",
+      "Cross Cannizzaro with Formaldehyde: Formaldehyde is ALWAYS oxidized to formate (HCOO⁻) because nucleophilic attack of OH⁻ is fastest on HCHO."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry Part 2", "MS Chouhan Organic Chemistry"]
+  },
+  {
+    "id": "chem-12-07",
+    "name": "Biomolecules",
+    "nameHi": "जैव-अणु",
+    "subject": "Chemistry",
+    "classLevel": 12,
+    "unit": "Organic Chemistry",
+    "unitHi": "कार्बनिक रसायन",
+    "weightagePercentage": 6.5,
+    "avgQuestionsPerYear": 3,
+    "ncertChapterNumber": 10,
+    "ncertBook": "NCERT Class 12 Chemistry Part 2",
+    "topics": [
+      { "name": "Carbohydrates: Monosaccharides (Glucose, Fructose), Configuration (D/L), Reducing vs Non-reducing Sugars", "nameHi": "कार्बोहाइड्रेट: ग्लूकोज, फ्रुक्टोज, अपचायी व अनपचायी शर्करा", "isHighYield": true },
+      { "name": "Disaccharides: Sucrose, Maltose, Lactose & Glycosidic Linkages; Inversion of Cane Sugar", "nameHi": "डाइसैकराइड: सुक्रोज, माल्टोज, लैक्टोज", "isHighYield": true },
+      { "name": "Polysaccharides: Starch (Amylose, Amylopectin), Cellulose, Glycogen", "nameHi": "पॉलिसैकराइड: स्टार्च, सेल्यूलोज, ग्लाइकोजन", "isHighYield": true },
+      { "name": "Proteins: Amino Acids, Zwitterion, Essential vs Non-essential, Peptide Bond, Primary, Secondary, Tertiary, Quaternary Structures, Denaturation", "nameHi": "प्रोटीन: ऐमीनो अम्ल, ज्विटर आयन, पेप्टाइड आबंध, विकृतीकरण", "isHighYield": true },
+      { "name": "Nucleic Acids: DNA and RNA, Nucleosides, Nucleotides, Phosphodiester Linkage, Double Helix", "nameHi": "न्यूक्लिक अम्ल: DNA, RNA, न्यूक्लियोटाइड", "isHighYield": true },
+      { "name": "Vitamins: Classification (Fat-soluble vs Water-soluble) & Deficiency Diseases", "nameHi": "विटामिन: वर्गीकरण एवं हीनताजन्य रोग", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Sucrose is a NON-REDUCING sugar because reducing groups of both glucose (C1) and fructose (C2) are involved in glycosidic linkage (α-D-glucose C1 to β-D-fructose C2).",
+      "Maltose (two α-D-glucose, α-1,4-linkage) and Lactose (β-D-galactose C1 to β-D-glucose C4) are REDUCING sugars.",
+      "All naturally occurring amino acids are L-amino acids (except Glycine which is optically inactive because it has no chiral carbon).",
+      "Protein Denaturation: Secondary and tertiary structures are destroyed by heat or pH changes, but PRIMARY structure (peptide bonds) remains completely intact.",
+      "Fat-soluble vitamins: A, D, E, K; Water-soluble vitamins: B-complex and C (cannot be stored in body, must be supplied regularly in diet)."
+    ],
+    "formulaHints": [
+      "Invert sugar: Hydrolysis of dextrorotatory sucrose (+66.5°) produces mixture of D-(+)-glucose (+52.5°) and D-(-)-fructose (-92.4°), resulting in net levorotatory mixture (-39.9°).",
+      "DNA bases: Adenine (A), Guanine (G), Cytosine (C), Thymine (T); RNA replaces Thymine with Uracil (U)."
+    ],
+    "commonMistakes": [
+      "Thinking fructose is an aldose. Fructose is a KETOHEXOSE, yet it reduces Tollens' and Fehling's solutions due to Lobry de Bruyn-Alberda van Ekenstein keto-enol tautomerism in alkaline medium!",
+      "Confusing Nucleoside with Nucleotide: Nucleoside = Base + Sugar; Nucleotide = Base + Sugar + Phosphate group."
+    ],
+    "shortTricks": [
+      "Essential amino acids mnemonic: PVT TIM HALL (Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Arginine, Leucine, Lysine).",
+      "Base pairing rule (Chargaff): In DNA, A pairs with T via 2 hydrogen bonds (A=T); G pairs with C via 3 hydrogen bonds (G≡C)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Chemistry Part 2", "NCERT Class 11/12 Biology"]
+  }
+]

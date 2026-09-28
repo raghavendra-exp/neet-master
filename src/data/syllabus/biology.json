@@ -1,0 +1,394 @@
+[
+  {
+    "id": "bio-11-01",
+    "name": "Diversity in the Living World",
+    "nameHi": "जीव जगत में विविधता",
+    "subject": "Biology",
+    "classLevel": 11,
+    "unit": "Unit 1: Diversity in the Living World",
+    "unitHi": "इकाई 1: जीव जगत में विविधता",
+    "weightagePercentage": 9.0,
+    "avgQuestionsPerYear": 8,
+    "ncertChapterNumber": 1,
+    "ncertBook": "NCERT Class 11 Biology (The Living World, Biological Classification, Plant Kingdom, Animal Kingdom)",
+    "topics": [
+      { "name": "What is Living? Defining vs Characteristic Features (Metabolism, Cellular Organization, Consciousness)", "nameHi": "जीव क्या है? उपापचय, चेतना", "isHighYield": true },
+      { "name": "Binomial Nomenclature (Linnaeus), Taxonomic Hierarchy & Taxa", "nameHi": "द्विपद नामकरण, वर्गिकी पदानुक्रम", "isHighYield": true },
+      { "name": "Five Kingdom Classification (Whittaker): Monera, Protista, Fungi, Plantae, Animalia", "nameHi": "पांच जगत वर्गीकरण (व्हिटेकर)", "isHighYield": true },
+      { "name": "Kingdom Monera (Archaebacteria, Eubacteria, Cyanobacteria, Mycoplasma)", "nameHi": "जगत मोनेरा: माइकोप्लाज्मा, सायनोबैक्टीरिया", "isHighYield": true },
+      { "name": "Kingdom Protista (Chrysophytes, Dinoflagellates, Euglenoids, Slime moulds, Protozoans)", "nameHi": "जगत प्रोटिस्टा", "isHighYield": true },
+      { "name": "Kingdom Fungi (Phycomycetes, Ascomycetes, Basidiomycetes, Deuteromycetes), Lichens & Prions", "nameHi": "जगत कवक (फंजाई), लाइकेन, प्रीयॉन", "isHighYield": true },
+      { "name": "Plant Kingdom: Algae (Chlorophyceae, Phaeophyceae, Rhodophyceae), Bryophytes, Pteridophytes, Gymnosperms, Angiosperms", "nameHi": "पादप जगत: शैवाल, ब्रायोफाइटा, टेरिडोफाइटा, जिम्नोस्पर्म", "isHighYield": true },
+      { "name": "Animal Kingdom: Non-chordates (Porifera to Hemichordata) & Chordates (Cyclostomata to Mammalia)", "nameHi": "प्राणी जगत: अकशेरुकी एवं कशेरुकी", "isHighYield": true }
+    ],
+    "nmcNotes": "Taxonomic aids (Herbarium, Botanical Gardens, Museum, Zoological Parks, Key) were deleted from NCERT/NMC in chapter 1, but biological classification criteria and animal phyla characteristics are perennial top scorers.",
+    "keyConcepts": [
+      "Defining properties of living organisms: Metabolism, Cellular Organization, and Consciousness (Growth and Reproduction are NOT defining properties because sterile organisms like mules don't reproduce, and mountains can grow by accretion).",
+      "Mycoplasma: Smallest living cells, completely LACK cell wall, and can survive WITHOUT oxygen (pathogenic in animals and plants).",
+      "Algal pigments: Chlorophyceae (Chlorophyll a, b; starch); Phaeophyceae (Chlorophyll a, c, Fucoxanthin; laminarin/mannitol); Rhodophyceae (Chlorophyll a, d, r-phycoerythrin; floridean starch).",
+      "Bryophytes are the 'Amphibians of plant kingdom' because they live in soil but depend on water for sexual reproduction (flagellated antherozoids swim to archegonia).",
+      "Water vascular system is unique to Echinodermata (used for locomotion, capture and transport of food, respiration). Water canal system is unique to Porifera."
+    ],
+    "formulaHints": [
+      "Taxonomic Hierarchy mnemonic: Keep Pond Clean Or Frog Gets Sick (Kingdom, Phylum/Division, Class, Order, Family, Genus, Species)",
+      "Phaeophyceae cell wall: Cellulose covered by gelatinous coating of algin; Rhodophyceae cell wall: Cellulose, pectin, and polysulphate esters (agar, carrageen)"
+    ],
+    "commonMistakes": [
+      "Confusing canal system in Sponges (Porifera, driven by choanocytes/collar cells) with water vascular system in Echinoderms (starfish).",
+      "Classifying Euglena as strictly autotrophic (it is mixotrophic: photosynthetic in presence of sunlight, heterotrophic predator when deprived of light)."
+    ],
+    "shortTricks": [
+      "Fungi asexual spores: Phycomycetes (Endogenous zoospores/aplanospores), Ascomycetes (Exogenous conidia), Basidiomycetes (Sex spores are exogenous basidiospores on basidium). Deuteromycetes are fungi imperfecti because sexual stage is absent.",
+      "Protonephridia (Flame cells) for excretion: Platyhelminthes (Tapeworm, Planaria), Rotifers, and Cephalochordate (Amphioxus)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Biology", "MTG NCERT at your Fingertips Biology", "Dr. Ali Objective Biology"]
+  },
+  {
+    "id": "bio-11-02",
+    "name": "Structural Organisation in Animals and Plants",
+    "nameHi": "पादप एवं प्राणियों में संरचनात्मक संगठन",
+    "subject": "Biology",
+    "classLevel": 11,
+    "unit": "Unit 2: Structural Organisation in Animals and Plants",
+    "unitHi": "इकाई 2: पादप एवं प्राणियों में संरचनात्मक संगठन",
+    "weightagePercentage": 8.0,
+    "avgQuestionsPerYear": 7,
+    "ncertChapterNumber": 5,
+    "ncertBook": "NCERT Class 11 Biology (Morphology of Flowering Plants, Anatomy of Flowering Plants, Structural Organisation in Animals)",
+    "topics": [
+      { "name": "Morphology of Flowering Plants: Root, Stem, Leaf modifications, Inflorescence, Flower (Placentation, Aestivation), Fruit, Seed", "nameHi": "पुष्पी पादपों की आकारिकी: विन्यास, फल, बीज", "isHighYield": true },
+      { "name": "Families: Solanaceae, Fabaceae, Liliaceae + NMC Added Families: Malvaceae, Cruciferae (Brassicaceae), Compositae (Asteraceae), Gramineae (Poaceae)", "nameHi": "पादप कुल: सोलेनेसी, मालवेसी, क्रूसीफेरी, कम्पोजिटी, ग्रैमिनी", "isHighYield": true, "isNmcAdded": true },
+      { "name": "Anatomy of Flowering Plants: Meristematic and Permanent Tissues, Vascular Bundles (Open, Closed, Radial, Conjoint)", "nameHi": "पादपों की शारीर: विभज्योतक एवं स्थायी ऊतक, संवहन बंडल", "isHighYield": true },
+      { "name": "Anatomy of Dicot and Monocot Root, Stem, and Leaf", "nameHi": "द्विबीजपत्री एवं एकबीजपत्री मूल, तना एवं पत्ती की शारीर", "isHighYield": true },
+      { "name": "Animal Tissues: Epithelial (Squamous, Cuboidal, Columnar, Ciliated), Connective (Areolar, Adipose, Bone, Cartilage, Blood), Muscular, Neural", "nameHi": "प्राणी ऊतक: उपकला, संयोजी, पेशी, तंत्रिका ऊतक", "isHighYield": true },
+      { "name": "Morphology, Anatomy and Functions of Frog (Rana tigrina) and Cockroach (Periplaneta americana)", "nameHi": "मेंढक (Rana tigrina) एवं कॉकरोच की आकारिकी एवं शारीर", "isHighYield": true, "isNmcAdded": true }
+    ],
+    "nmcNotes": "NMC explicitly added plant families (Malvaceae, Cruciferae, Compositae, Gramineae) and clarified Frog & Cockroach (insects) in the animal morphology section.",
+    "keyConcepts": [
+      "Placentation types: Marginal (Pea), Axile (Tomato, Lemon, China rose), Parietal (Mustard, Argemone), Free-central (Dianthus, Primrose), Basal (Sunflower, Marigold).",
+      "Aestivation types: Valvate (Calotropis), Twisted (China rose, Lady's finger, Cotton), Imbricate (Cassia, Gulmohur), Vexillary (Pea, Bean).",
+      "Frog respiration: Cutaneous (skin) in water and during aestivation/hibernation; Pulmonary (lungs) and Buccopharyngeal cavity on land. Heart is 3-chambered (2 atria, 1 ventricle) with Sinus Venosus and Conus Arteriosus.",
+      "Cockroach excretion is carried out by 100-150 yellow thin filamentous Malpighian tubules (at junction of midgut and hindgut), uricotelic in nature.",
+      "Collagen fibers provide tensile strength in dense regular connective tissue (tendons connect muscle to bone; ligaments connect bone to bone)."
+    ],
+    "formulaHints": [
+      "Cruciferae floral formula: ⊕ ⚥ K₂₊₂ C₄ A₂₊₄ G₍₂₎ (Tetradynamous stamens, Cruciform corolla, Replum false septum)",
+      "Malvaceae floral formula: ⊕ ⚥ Epi₃₋₈ K₍₅₎ C₅ A₍∞₎ G₍₅₎ (Monadelphous stamens, kidney-shaped reniform anthers)"
+    ],
+    "commonMistakes": [
+      "Confusing Tendons (Muscle to Bone) with Ligaments (Bone to Bone). Mnemonic: MTB (Muscle to Bone = Tendon).",
+      "Classifying open vascular bundles as monocot: Open vascular bundles (possessing cambium between xylem and phloem) are strictly found in DICOT stems, enabling secondary growth."
+    ],
+    "shortTricks": [
+      "Placentation mnemonic: Marginal=Pea; Axile=TLC (Tomato, Lemon, China rose); Parietal=MAP (Mustard, Argemone, Parietal); Free-central=DP (Dianthus, Primrose); Basal=Sun-Mari (Sunflower, Marigold).",
+      "Cockroach vision: Compound eyes have ~2000 hexagonal ommatidia producing mosaic vision with high sensitivity but less resolution (nocturnal vision)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Biology", "Dr. Ali Objective Biology", "Trueman's Elementary Biology Vol 1"]
+  },
+  {
+    "id": "bio-11-03",
+    "name": "Cell Structure and Function",
+    "nameHi": "कोशिका: संरचना एवं कार्य",
+    "subject": "Biology",
+    "classLevel": 11,
+    "unit": "Unit 3: Cell Structure and Function",
+    "unitHi": "इकाई 3: कोशिका: संरचना एवं कार्य",
+    "weightagePercentage": 10.0,
+    "avgQuestionsPerYear": 9,
+    "ncertChapterNumber": 8,
+    "ncertBook": "NCERT Class 11 Biology (Cell: The Unit of Life, Biomolecules, Cell Cycle and Cell Division)",
+    "topics": [
+      { "name": "Cell Theory (Schleiden, Schwann, Virchow: Omnis cellula-e cellula)", "nameHi": "कोशिका सिद्धांत", "isHighYield": true },
+      { "name": "Prokaryotic vs Eukaryotic Cell Architecture, Mesosomes, Plasmids", "nameHi": "प्रोकैरियोटिक एवं यूकैरियोटिक कोशिका", "isHighYield": true },
+      { "name": "Plasma Membrane: Fluid Mosaic Model (Singer & Nicolson, 1972)", "nameHi": "कोशिका झिल्ली: तरल मोज़ेक मॉडल", "isHighYield": true },
+      { "name": "Endomembrane System: ER (Rough & Smooth), Golgi Apparatus, Lysosomes, Vacuoles", "nameHi": "अंतःझिल्लिका तंत्र: ER, गॉल्जी काय, लयनकाय, रसधानी", "isHighYield": true },
+      { "name": "Mitochondria & Plastids (Semi-autonomous, 70S ribosomes, circular dsDNA)", "nameHi": "माइटोकॉन्ड्रिया एवं लवक (अर्ध-स्वायत्त अंगक)", "isHighYield": true },
+      { "name": "Biomolecules: Amino acids, Lipids, Carbohydrates, Proteins, Nucleic Acids, Enzymes (K_m, Competitive Inhibition, Allosteric)", "nameHi": "जैव अणु: एन्जाइम संदमन, K_m मान", "isHighYield": true },
+      { "name": "Cell Cycle: Interphase (G₁, S, G₂), M-Phase (Prophase, Metaphase, Anaphase, Telophase), Cytokinesis", "nameHi": "कोशिका चक्र: अंतरावस्था, सूत्री विभाजन", "isHighYield": true },
+      { "name": "Meiosis: Meiosis I (Prophase I: Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis), Meiosis II & Significance", "nameHi": "अर्धसूत्री विभाजन: प्रोफेज I की प्रावस्थाएं", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Fluid Mosaic Model: Quasi-fluid nature of lipid enables lateral movement of proteins within overall bilayer; measure of fluidity.",
+      "Endomembrane system includes ER, Golgi, Lysosomes, Vacuoles because their functions are coordinated. (Mitochondria, Chloroplasts, Peroxisomes are NOT part of endomembrane system).",
+      "Enzyme Inhibition: Competitive inhibitor (e.g., malonate inhibits succinate dehydrogenase) resembles substrate, increases K_m without changing V_max.",
+      "Prophase I of Meiosis: Zygotene (Synapsis, Synaptonemal complex formed); Pachytene (Crossing over between non-sister chromatids mediated by Recombinase enzyme); Diplotene (Dissolution of synaptonemal complex, Chiasmata X-shaped structures visible); Diakinesis (Terminalization of chiasmata).",
+      "During S-phase: DNA content DOUBLES (from 2C to 4C), but chromosome number remains the SAME (2n)."
+    ],
+    "formulaHints": [
+      "Number of meiotic divisions required to produce n seeds/grains = n + n/4 = 5n/4 (e.g., for 100 wheat grains = 100 + 25 = 125 meiotic divisions)",
+      "Ribosome subunits: Prokaryotes 70S (50S + 30S); Eukaryotes 80S (60S + 40S)"
+    ],
+    "commonMistakes": [
+      "Stating chromosome number doubles during S phase. Only the amount of DNA per cell doubles (2C → 4C); chromosome number doubles momentarily only at Anaphase when centromeres split.",
+      "Attributing non-sister chromatid exchange to Zygotene instead of Pachytene."
+    ],
+    "shortTricks": [
+      "Prophase I sequence mnemonic: Lazy Zebra Plays Double Drama (Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis).",
+      "Centriole duplication in animal cells occurs in CYTOPLASM during S-phase, while DNA replicates in NUCLEUS."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Biology", "MTG NCERT at your Fingertips Biology"]
+  },
+  {
+    "id": "bio-11-04",
+    "name": "Plant Physiology",
+    "nameHi": "पादप कार्यिकी",
+    "subject": "Biology",
+    "classLevel": 11,
+    "unit": "Unit 4: Plant Physiology",
+    "unitHi": "इकाई 4: पादप कार्यिकी",
+    "weightagePercentage": 7.0,
+    "avgQuestionsPerYear": 6,
+    "ncertChapterNumber": 11,
+    "ncertBook": "NCERT Class 11 Biology (Photosynthesis in Higher Plants, Respiration in Plants, Plant Growth and Development)",
+    "topics": [
+      { "name": "Photosynthesis: Light Reactions, Photophosphorylation (Cyclic vs Non-cyclic Z-Scheme), Chemiosmotic Hypothesis (Peter Mitchell)", "nameHi": "प्रकाश संश्लेषण: प्रकाश अभिक्रिया, रसायनपरासरणी परिकल्पना", "isHighYield": true },
+      { "name": "Dark Reactions: Calvin Cycle (C₃ Pathway), RuBisCO, C₄ Pathway (Kranz Anatomy, Hatch-Slack), Photorespiration (C₂ Cycle)", "nameHi": "केल्विन चक्र, C₄ चक्र (क्रांज शारीर), प्रकाश-श्वसन", "isHighYield": true },
+      { "name": "Cellular Respiration: Glycolysis (EMP Pathway), Link Reaction, Krebs Cycle (TCA), Electron Transport System (ETS) & Oxidative Phosphorylation", "nameHi": "कोशिकीय श्वसन: ग्लाइकोलिसिस, क्रेब्स चक्र, ETS", "isHighYield": true },
+      { "name": "Respiratory Quotient (RQ) for Carbohydrates, Fats, Proteins, Organic acids", "nameHi": "श्वसन गुणांक (RQ)", "isHighYield": true },
+      { "name": "Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene, Abscisic Acid (Stress Hormone)", "nameHi": "पादप वृद्धि नियामक: ऑक्सिन, जिबरेलिन, साइटोकाइनिन, एथिलीन, ABA", "isHighYield": true }
+    ],
+    "nmcNotes": "Transport in Plants (Water potential, phloem translocation) and Mineral Nutrition (Essential elements, nitrogen cycle) were deleted in the revised NCERT/NMC syllabus. Photoperiodism and Vernalization were also deleted.",
+    "keyConcepts": [
+      "RuBisCO is the most abundant enzyme in the world; exhibits dual carboxylase and oxygenase activity.",
+      "C₄ plants (Maize, Sugarcane, Sorghum) have Kranz anatomy: mesophyll cells lack RuBisCO and fix CO₂ using PEP carboxylase into oxaloacetate; bundle sheath cells have RuBisCO, agranal chloroplasts, and NO photorespiration (high productivity).",
+      "Glycolysis: Occurs in cytoplasm of ALL living cells, oxygen-independent, yields net 2 ATP and 2 NADH per glucose.",
+      "Krebs cycle occurs in mitochondrial matrix; ETS complexes I, II, III, IV, V (ATP synthase) are located on the inner mitochondrial membrane.",
+      "Auxin: Apical dominance, rooting; Cytokinin: Cell division, overcomes apical dominance; Ethylene: Fruit ripening, triple response; ABA: Stomatal closure during water stress."
+    ],
+    "formulaHints": [
+      "Net ATP yield from complete aerobic oxidation of 1 molecule of glucose = 36 or 38 ATP (or ~30-32 in modern bioenergetics)",
+      "Respiratory Quotient RQ = Volume of CO₂ evolved / Volume of O₂ consumed",
+      "RQ values: Carbohydrates = 1.0; Fats (Tripalmitin) = 0.7; Proteins = 0.9; Organic acids (Malic acid) > 1"
+    ],
+    "commonMistakes": [
+      "Thinking photorespiration produces ATP or sugar. Photorespiration is a wasteful process that CONSUMES ATP without producing ATP, NADPH, or sugar.",
+      "Confusing site of water splitting (photolysis): Water splitting complex is located on the INNER side of the thylakoid membrane (lumen side)."
+    ],
+    "shortTricks": [
+      "Complexes of ETS: Complex I (NADH dehydrogenase), Complex II (Succinate dehydrogenase / FADH₂), Complex III (Cytochrome bc₁), Complex IV (Cytochrome c oxidase, contains Cu_A and Cu_B centers), Complex V (F₀-F₁ ATP synthase).",
+      "Cytochrome c is a small, mobile electron carrier protein attached to outer surface of inner mitochondrial membrane transferring electrons from Complex III to IV."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Biology", "MTG NCERT at your Fingertips"]
+  },
+  {
+    "id": "bio-11-05",
+    "name": "Human Physiology",
+    "nameHi": "मानव कार्यिकी",
+    "subject": "Biology",
+    "classLevel": 11,
+    "unit": "Unit 5: Human Physiology",
+    "unitHi": "इकाई 5: मानव कार्यिकी",
+    "weightagePercentage": 12.0,
+    "avgQuestionsPerYear": 11,
+    "ncertChapterNumber": 14,
+    "ncertBook": "NCERT Class 11 Biology (Breathing, Body Fluids, Excretion, Locomotion, Neural Control, Chemical Coordination)",
+    "topics": [
+      { "name": "Breathing and Exchange of Gases: Respiratory Volumes and Capacities (TV, IRV, ERV, RV, VC, TLC), Gas Transport (Hb-O₂ curve, Bohr Effect), Regulation", "nameHi": "श्वसन और गैसों का विनिमय: श्वसन आयतन व क्षमताएं", "isHighYield": true },
+      { "name": "Body Fluids and Circulation: Blood Groups (ABO, Rh), Cardiac Cycle, ECG Waves (P, QRS, T), Double Circulation, Cardiac Output, Blood Pressure", "nameHi": "शरीर द्रव तथा परिसंचरण: हृदय चक्र, ECG, दोहरा परिसंचरण", "isHighYield": true },
+      { "name": "Excretory Products and Elimination: Nephron Structure, Mechanism of Urine Formation, Counter-Current Mechanism (Henle's Loop & Vasa Recta), RAAS Regulation", "nameHi": "उत्सर्जी उत्पाद एवं निष्कासन: वृक्काणु, प्रतिधारा क्रियाविधि, RAAS", "isHighYield": true },
+      { "name": "Locomotion and Movement: Types of Joints (Synovial, Cartilaginous, Fibrous), Sliding Filament Theory of Muscle Contraction (Troponin, Tropomyosin, Actin, Myosin)", "nameHi": "गमन एवं संचलन: पेशी संकुचन का सर्पी तंतु सिद्धांत, संधियां", "isHighYield": true },
+      { "name": "Neural Control and Coordination: Generation and Conduction of Nerve Impulse (Resting Potential, Depolarization, Action Potential), Synaptic Transmission", "nameHi": "तंत्रिकीय नियंत्रण एवं समन्वय: तंत्रिका आवेग का संचरण, सिनेप्स", "isHighYield": true },
+      { "name": "Chemical Coordination and Integration: Endocrine Glands, Hormones (Pituitary, Thyroid, Parathyroid, Adrenal, Pancreas), Mechanism of Hormone Action (Peptide vs Steroid)", "nameHi": "रासायनिक समन्वय तथा एकीकरण: अंतःस्रावी ग्रंथियां, हार्मोन क्रियाविधि", "isHighYield": true }
+    ],
+    "nmcNotes": "Digestion and Absorption chapter was completely deleted. In Neural Control, sensory organs (Eye and Ear anatomy & reflex arc) were deleted. The remaining 5 chapters carry extraordinary weight in NEET.",
+    "keyConcepts": [
+      "Oxygen-hemoglobin dissociation curve is Sigmoid. Shift to RIGHT (reduced O₂ affinity, increased O₂ unloading to tissues) caused by: High pCO₂, High H⁺ (Low pH), High Temperature, High 2,3-DPG (Bohr effect).",
+      "ECG: P-wave represents atrial depolarization; QRS complex represents ventricular depolarization; T-wave represents ventricular repolarization.",
+      "Counter-current mechanism: Henle's loop and Vasa recta maintain an increasing osmolarity gradient from renal cortex (300 mOsm/L) to inner medullary interstitium (1200 mOsm/L).",
+      "Sliding Filament Theory: Ca²⁺ binds to troponin C, unmasking myosin-binding sites on actin filaments; ATP hydrolysis cocks myosin head.",
+      "Mechanism of Hormone Action: Peptide hormones (Insulin, Glucagon, Pituitary hormones) bind cell surface receptors and generate secondary messengers (cAMP, IP₃, Ca²⁺); Steroid hormones (Estrogen, Progesterone, Cortisol, Testosterone) cross membrane and bind intracellular nuclear receptors to regulate gene expression."
+    ],
+    "formulaHints": [
+      "Vital Capacity VC = ERV + TV + IRV",
+      "Total Lung Capacity TLC = VC + RV",
+      "Cardiac Output = Stroke Volume (70 mL) × Heart Rate (72 bpm) ≈ 5040 mL/min ≈ 5 L/min",
+      "Net Filtration Pressure in glomerulus NFP = GHP - (BCOP + CHP) ≈ 60 - (32 + 18) = 10 mm Hg"
+    ],
+    "commonMistakes": [
+      "Confusing Calcitonin with Parathyroid Hormone (PTH): PTH is hypercalcemic (increases blood Ca²⁺ by bone resorption and renal reabsorption); Calcitonin is hypocalcemic (decreases blood Ca²⁺).",
+      "Forgetting that resting membrane potential (-70 mV) is maintained actively by the Na⁺/K⁺ ATPase pump (3 Na⁺ pumped OUT for every 2 K⁺ pumped IN)."
+    ],
+    "shortTricks": [
+      "RAAS sequence: Fall in GFR/Blood Pressure → JG cells release Renin → Angiotensinogen to Angiotensin I → ACE converts to Angiotensin II (potent vasoconstrictor) → Adrenal cortex releases Aldosterone → Na⁺ and water reabsorption in DCT.",
+      "Glucagon is hyperglycemic (secreted by α-cells of islets of Langerhans); Insulin is hypoglycemic (secreted by β-cells)."
+    ],
+    "recommendedBooks": ["NCERT Class 11 Biology", "Trueman's Elementary Biology Vol 1", "MTG NCERT at your Fingertips"]
+  },
+  {
+    "id": "bio-12-01",
+    "name": "Reproduction",
+    "nameHi": "जनन",
+    "subject": "Biology",
+    "classLevel": 12,
+    "unit": "Unit 6: Reproduction",
+    "unitHi": "इकाई 6: जनन",
+    "weightagePercentage": 10.0,
+    "avgQuestionsPerYear": 9,
+    "ncertChapterNumber": 1,
+    "ncertBook": "NCERT Class 12 Biology (Sexual Reproduction in Flowering Plants, Human Reproduction, Reproductive Health)",
+    "topics": [
+      { "name": "Sexual Reproduction in Flowering Plants: Microsporogenesis, Megasporogenesis, Pollen Grain Structure, Embryo Sac (7-celled, 8-nucleate)", "nameHi": "पुष्पी पादपों में लैंगिक जनन: परागकण, भ्रूणकोष संरचना", "isHighYield": true },
+      { "name": "Pollination (Autogamy, Geitonogamy, Xenogamy), Outbreeding Devices, Pollen-Pistil Interaction", "nameHi": "परागण के प्रकार, पराग-स्त्रीकेसर पारस्परिक क्रिया", "isHighYield": true },
+      { "name": "Double Fertilization (Syngamy + Triple Fusion), Endosperm Development, Embryogenesis, Apomixis & Polyembryony", "nameHi": "दोहरा निषेचन, भ्रूणपोष, असंगजनन", "isHighYield": true },
+      { "name": "Human Reproduction: Male Reproductive System (Spermatogenesis, Sertoli & Leydig cells, Semen composition)", "nameHi": "मानव जनन: नर जनन तंत्र, शुक्रजनन", "isHighYield": true },
+      { "name": "Female Reproductive System: Oogenesis, Follicular Development, Menstrual Cycle (Hormonal Regulation: FSH, LH, Estrogen, Progesterone)", "nameHi": "मादा जनन तंत्र: अंडजनन, आर्तव चक्र", "isHighYield": true },
+      { "name": "Fertilization, Cleavage, Blastocyst Implantation, Placenta & Hormones (hCG, hPL, Relaxin), Parturition (Oxytocin) & Lactation (Prolactin)", "nameHi": "निषेचन, आरोपण, अपरा, प्रसव एवं दुग्धस्रावण", "isHighYield": true },
+      { "name": "Reproductive Health: Contraceptive Methods (Barrier, IUDs: Copper-T, Hormonal: Saheli), MTP Act, STIs, Assisted Reproductive Technologies (ART: IVF, ZIFT, GIFT, ICSI, IUI)", "nameHi": "जनन स्वास्थ्य: गर्भनिरोधक उपाय, ART तकनीकें (IVF, GIFT)", "isHighYield": true }
+    ],
+    "nmcNotes": "Reproduction in Organisms (Chapter 1) was deleted. Sexual Reproduction in Plants and Human Reproduction remain exceptionally high-scoring units.",
+    "keyConcepts": [
+      "Female Gametophyte (Embryo Sac): 7-celled, 8-nucleate structure consisting of 1 egg cell and 2 synergids (filiform apparatus guides pollen tube) at micropylar end, 3 antipodal cells at chalazal end, and 1 central cell with 2 polar nuclei.",
+      "Double Fertilization: Unique to angiosperms. One sperm fuses with egg (Syngamy → 2n zygote); second sperm fuses with two polar nuclei (Triple Fusion → 3n Primary Endosperm Nucleus PEN).",
+      "Menstrual Cycle: LH Surge at mid-cycle (~14th day) triggers Ovulation (release of secondary oocyte). Corpus luteum secretes large amounts of Progesterone to maintain endometrium.",
+      "Placental Hormones: hCG, hPL, and relaxin (secreted by ovary later) are produced in women ONLY during pregnancy.",
+      "Saheli: Once-a-week non-steroidal oral contraceptive pill developed by CDRI Lucknow with high contraceptive value and very few side effects."
+    ],
+    "formulaHints": [
+      "Number of meiotic divisions for 100 seeds = 100 (for 100 functional megaspores) + 25 (for 100 microspores) = 125 meiotic divisions",
+      "Ploidy levels: Antipodals (n), Synergids (n), Nucellus (2n), Zygote (2n), Endosperm (3n)"
+    ],
+    "commonMistakes": [
+      "Confusing Geitonogamy with Xenogamy: Geitonogamy is ecologically cross-pollination (requires pollinator), but GENETICALLY it is self-pollination (autogamous) because pollen comes from the same plant.",
+      "Confusing ZIFT (Zygote Intra-Fallopian Transfer, embryo up to 8 blastomeres) with IUT (Intra-Uterine Transfer, embryo with MORE than 8 blastomeres)."
+    ],
+    "shortTricks": [
+      "Copper-releasing IUDs (CuT, Cu7, Multiload 375): Cu ions suppress sperm motility and fertilizing capacity.",
+      "Hormone-releasing IUDs (Progestasert, LNG-20): Make uterus unsuitable for implantation and cervix hostile to sperms."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Biology", "MTG NCERT at your Fingertips", "Dr. Ali Objective Biology"]
+  },
+  {
+    "id": "bio-12-02",
+    "name": "Genetics and Evolution",
+    "nameHi": "आनुवंशिकी तथा विकास",
+    "subject": "Biology",
+    "classLevel": 12,
+    "unit": "Unit 7: Genetics and Evolution",
+    "unitHi": "इकाई 7: आनुवंशिकी तथा विकास",
+    "weightagePercentage": 14.0,
+    "avgQuestionsPerYear": 12,
+    "ncertChapterNumber": 4,
+    "ncertBook": "NCERT Class 12 Biology (Principles of Inheritance, Molecular Basis of Inheritance, Evolution)",
+    "topics": [
+      { "name": "Mendelian Genetics: Monohybrid & Dihybrid Crosses, Law of Segregation, Law of Independent Assortment", "nameHi": "मेंडल के नियम: एकसंकर व द्विसंकर संकरण", "isHighYield": true },
+      { "name": "Non-Mendelian Inheritance: Incomplete Dominance (Mirabilis, Snapdragon), Codominance (ABO Blood Group), Pleiotropy, Polygenic Inheritance (Skin Color)", "nameHi": "अपूर्ण प्रभाविता, सह-प्रभाविता, बहुप्रभाविता", "isHighYield": true },
+      { "name": "Chromosomal Theory of Inheritance (Sutton & Boveri), Linkage & Recombination (Morgan's Drosophila experiments)", "nameHi": "आनुवंशिकी का क्रोमोसोम सिद्धांत, सहलग्नता (मॉर्गन)", "isHighYield": true },
+      { "name": "Sex Determination (XX-XY, XX-XO, ZZ-ZW in birds, Honeybee Haplodiploidy) & Sex-linked Inheritance (Color Blindness, Hemophilia)", "nameHi": "लिंग निर्धारण एवं लिंग-सहलग्न रोग", "isHighYield": true },
+      { "name": "Mendelian Disorders (Sickle-cell Anemia, Thalassemia, Phenylketonuria, Cystic Fibrosis) & Chromosomal Disorders (Down, Turner, Klinefelter Syndromes)", "nameHi": "मेंडलीय एवं गुणसूत्रीय विकार", "isHighYield": true },
+      { "name": "DNA as Genetic Material: Griffith Transforming Principle, Avery-MacLeod-McCarty, Hershey-Chase Experiment (³²P and ³⁵S)", "nameHi": "DNA आनुवंशिक पदार्थ: हर्षे-चेस प्रयोग", "isHighYield": true },
+      { "name": "DNA Replication: Semi-conservative (Meselson & Stahl using ¹⁵N), Replication Fork, Enzymes (DNA Polymerase, Helicase, Ligase)", "nameHi": "DNA प्रतिकृतियन: मेसल्सन-स्टाल प्रयोग", "isHighYield": true },
+      { "name": "Transcription in Prokaryotes vs Eukaryotes (Introns, Exons, Splicing, Capping, Tailing, RNA Polymerases I, II, III)", "nameHi": "अनुलेखन: संबंधन, आच्छादन, पुच्छन", "isHighYield": true },
+      { "name": "Genetic Code: Universal, Degenerate, Non-overlapping, Unambiguous, Wobble hypothesis, AUG Start Codon", "nameHi": "आनुवंशिक कूट की विशेषताएं", "isHighYield": true },
+      { "name": "Translation: Ribosome, tRNA adapter molecule, Peptide bond formation; Regulation of Gene Expression: Lac Operon (Jacob & Monod)", "nameHi": "अनुवादन एवं लैक ओपेरॉन मॉडल", "isHighYield": true },
+      { "name": "Human Genome Project (HGP) & DNA Fingerprinting (VNTRs, Southern Blotting)", "nameHi": "मानव जीनोम परियोजना एवं DNA अंगुलीछापी", "isHighYield": true },
+      { "name": "Evolution: Origin of Life (Miller-Urey experiment), Homologous vs Analogous Organs (Divergent vs Convergent Evolution), Adaptive Radiation (Darwin's Finches), Hardy-Weinberg Principle: p² + 2pq + q² = 1", "nameHi": "विकास: मिलर प्रयोग, समजात व समवृत्ति अंग, हार्डी-वाइनबर्ग सिद्धांत", "isHighYield": true }
+    ],
+    "nmcNotes": "This is the single HIGHEST scoring and most conceptual unit in the entire NEET syllabus, typically yielding 12 to 14 questions every year.",
+    "keyConcepts": [
+      "Incomplete Dominance (Snapdragon): Phenotypic ratio = Genotypic ratio = 1 : 2 : 1 in F₂ generation.",
+      "Codominance: ABO blood group system governed by gene I with 3 alleles (I^A, I^B, i) yielding 6 genotypes and 4 phenotypes.",
+      "Sickle-Cell Anemia: Autosomal recessive disease caused by substitution of Glutamic acid (GAG) by Valine (GUG) at the 6th position of the β-globin chain.",
+      "Hershey and Chase experiment: Phages with ³²P transferred radioactivity into bacterial pellet (proving DNA is genetic material); phages with ³⁵S remained in supernatant with protein coats.",
+      "Lac Operon: Lactose/allolactose acts as inducer. In presence of inducer, it binds repressor protein and inactivates it, allowing RNA polymerase to transcribe lac z (β-galactosidase), lac y (permease), and lac a (transacetylase).",
+      "Hardy-Weinberg Principle: Allele frequencies remain constant across generations in absence of evolutionary influences. Disrupting factors: Gene flow, Genetic drift, Mutation, Genetic recombination, Natural selection."
+    ],
+    "formulaHints": [
+      "Dihybrid phenotypic ratio: 9 : 3 : 3 : 1; Dihybrid test cross ratio: 1 : 1 : 1 : 1",
+      "Hardy-Weinberg Equation: p + q = 1; p² (homozygous dominant) + 2pq (heterozygous) + q² (homozygous recessive) = 1",
+      "Number of gametes produced by genotype with n heterozygous gene pairs = 2ⁿ (e.g. AaBbCc has n=3 → 2³ = 8 gametes)"
+    ],
+    "commonMistakes": [
+      "Confusing Homologous with Analogous: Homologous organs have SAME origin/structure but different functions (Divergent Evolution, e.g., Forelimbs of whale, bat, cheetah, human; Bougainvillea thorn & Cucurbita tendril). Analogous organs have DIFFERENT origin but same function (Convergent Evolution, e.g., Wings of butterfly & bird; Sweet potato root & potato stem).",
+      "Assuming stop codons (UAA, UAG, UGA) code for an amino acid. Stop codons do NOT code for any amino acid; they recruit release factors."
+    ],
+    "shortTricks": [
+      "Genetic drift acts ONLY in small, isolated populations (Founder Effect and Bottleneck Effect).",
+      "Lac operon genes mnemonic: ZYA = BPT (Z codes for Beta-galactosidase; Y codes for Permease; A codes for Transacetylase)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Biology", "MTG NCERT at your Fingertips", "Trueman's Elementary Biology Vol 2"]
+  },
+  {
+    "id": "bio-12-03",
+    "name": "Biotechnology and its Applications",
+    "nameHi": "जैव प्रौद्योगिकी एवं इसके अनुप्रयोग",
+    "subject": "Biology",
+    "classLevel": 12,
+    "unit": "Unit 9: Biotechnology",
+    "unitHi": "इकाई 9: जैव प्रौद्योगिकी",
+    "weightagePercentage": 8.0,
+    "avgQuestionsPerYear": 7,
+    "ncertChapterNumber": 9,
+    "ncertBook": "NCERT Class 12 Biology (Biotechnology: Principles and Processes, Biotechnology and its Applications)",
+    "topics": [
+      { "name": "Principles of Recombinant DNA Technology: Restriction Endonucleases (Molecular Scissors, EcoRI recognition sequence 5'-GAATTC-3', Sticky ends)", "nameHi": "पुनर्योगज DNA तकनीक: प्रतिबंध एंडोन्यूक्लिएज", "isHighYield": true },
+      { "name": "Cloning Vectors: Characteristics of pBR322 (Ori, ampᴿ, tetᴿ selectable markers, rop, insertional inactivation using β-galactosidase)", "nameHi": "क्लोनिंग संवाहक: pBR322, वरणयोग्य चिन्हक", "isHighYield": true },
+      { "name": "Competent Host: Methods of Gene Transfer (Biolistics / Gene Gun for plants, Microinjection for animal cells, Disarmed retroviruses)", "nameHi": "सक्षम परपोषी एवं जीन स्थानांतरण", "isHighYield": true },
+      { "name": "Polymerase Chain Reaction (PCR): Steps (Denaturation at 94°C, Annealing at 54°C, Extension at 72°C using Taq Polymerase from Thermus aquaticus)", "nameHi": "PCR तकनीक: विकृतीकरण, तापनुशीलन, विस्तार", "isHighYield": true },
+      { "name": "Bioreactors (Simple Stirred-tank vs Sparged) & Downstream Processing", "nameHi": "बायोरिएक्टर एवं अनुप्रवाह संसाधन", "isHighYield": true },
+      { "name": "Applications in Agriculture: Bt Cotton (Cry1Ac, Cry2Ab against cotton bollworms; Cry1Ab against corn borer), RNA interference (RNAi) using Meloidegyne incognita in tobacco", "nameHi": "कृषि में अनुप्रयोग: Bt कपास, RNA अंतर्क्षेप", "isHighYield": true },
+      { "name": "Applications in Medicine: Genetically Engineered Insulin (Humulin by Eli Lilly, 1983, C-peptide removed), Gene Therapy for ADA deficiency (1990), Transgenic Animals & Ethical Issues (GEAC)", "nameHi": "चिकित्सा में अनुप्रयोग: ह्यूमुलिन, ADA जीन थेरेपी", "isHighYield": true }
+    ],
+    "keyConcepts": [
+      "Restriction enzymes cut palindromic recognition sequences. EcoRI cuts between G and A in 5'-G↓AATTC-3' leaving overhanging single-stranded sticky ends.",
+      "Insertional Inactivation: Inserting foreign gene into tetᴿ gene makes recombinant colonies sensitive to tetracycline; or inserting into lacZ gene prevents β-galactosidase production, producing WHITE colonies (blue-white screening).",
+      "Taq DNA Polymerase is thermostable, isolated from bacterium Thermus aquaticus, and withstands high temperatures during PCR denaturation.",
+      "Bt Toxin: Exists as inactive protoxin in Bacillus thuringiensis crystals; becomes active inside insect gut due to ALKALINE pH, which solubilizes crystals and creates pores in midgut epithelial cells causing swelling and lysis.",
+      "Humulin: Human insulin consists of two polypeptide chains A (21 amino acids) and B (30 amino acids) linked by disulfide bonds. Proinsulin contains extra C-peptide (removed during maturation)."
+    ],
+    "formulaHints": [
+      "DNA amplification in PCR: After n cycles, number of DNA copies = 2ⁿ (e.g. after 30 cycles, ~1 billion copies produced)",
+      "DNA is negatively charged (due to phosphate backbone), so in Gel Electrophoresis it migrates toward the ANODE (+) through agarose matrix based on size (smaller fragments move farther)"
+    ],
+    "commonMistakes": [
+      "Thinking C-peptide is present in mature active human insulin. Mature insulin LACKS C-peptide!",
+      "Confusing Bt toxin genes: Cry1Ac and Cry2Ab control COTTON BOLLWORMS; Cry1Ab controls CORN BORER."
+    ],
+    "shortTricks": [
+      "PCR sequence mnemonic: DAE (Denaturation ~94°C, Annealing ~54°C, Extension ~72°C).",
+      "Staining DNA in agarose gel: Ethidium Bromide (EtBr) under UV illumination reveals BRIGHT ORANGE bands."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Biology", "MTG NCERT at your Fingertips"]
+  },
+  {
+    "id": "bio-12-04",
+    "name": "Ecology and Environment",
+    "nameHi": "पारिस्थितिकी एवं पर्यावरण",
+    "subject": "Biology",
+    "classLevel": 12,
+    "unit": "Unit 10: Ecology and Environment",
+    "unitHi": "इकाई 10: पारिस्थितिकी एवं पर्यावरण",
+    "weightagePercentage": 9.0,
+    "avgQuestionsPerYear": 8,
+    "ncertChapterNumber": 11,
+    "ncertBook": "NCERT Class 12 Biology (Organisms and Populations, Ecosystem, Biodiversity and Conservation)",
+    "topics": [
+      { "name": "Organisms and Populations: Population Attributes (Birth rate, Death rate, Sex ratio, Age pyramids), Population Growth Models (Exponential: dN/dt = rN vs Logistic: dN/dt = rN(K - N)/K)", "nameHi": "जीव और समष्टियां: समष्टि वृद्धि मॉडल (लॉजिस्टिक)", "isHighYield": true },
+      { "name": "Population Interactions: Mutualism, Competition (Gause's Competitive Exclusion Principle), Predation, Parasitism, Commensalism, Amensalism", "nameHi": "समष्टि पारस्परिक क्रियाएं: सहोपकारिता, स्पर्धा, परभक्षण", "isHighYield": true },
+      { "name": "Ecosystem: Structure and Function, Productivity (GPP - R = NPP), Decomposition, Energy Flow (Lindeman's 10% Law), Ecological Pyramids (Number, Biomass, Energy)", "nameHi": "पारितंत्र: उत्पादकता, ऊर्जा प्रवाह (10% नियम), पिरामिड", "isHighYield": true },
+      { "name": "Biodiversity: Patterns of Biodiversity (Latitudinal Gradients, Species-Area Relationship: log S = log C + Z log A), Causes of Loss (The Evil Quartet)", "nameHi": "जैव विविधता: प्रजाति-क्षेत्र संबंध, हानि के कारण", "isHighYield": true },
+      { "name": "Biodiversity Conservation: In-situ (National Parks, Sanctuaries, Biosphere Reserves, Sacred Groves) vs Ex-situ (Zoological Parks, Botanical Gardens, Cryopreservation, Gene Banks)", "nameHi": "जैव विविधता संरक्षण: स्व-स्थाने एवं बाह्य-स्थाने", "isHighYield": true }
+    ],
+    "nmcNotes": "Environmental Issues chapter was completely deleted in NCERT and NMC revised syllabus. Ecosystem nutrient cycling and ecological succession were also deleted.",
+    "keyConcepts": [
+      "Pyramid of Energy is ALWAYS UPRIGHT without any exceptions, because energy is lost as heat at each trophic level (10% law).",
+      "Pyramid of Biomass in sea/aquatic ecosystem is INVERTED (biomass of fishes far exceeds that of phytoplankton).",
+      "Species-Area Relationship (Alexander von Humboldt): log S = log C + Z log A. For regional areas Z = 0.1 to 0.2; for entire continents Z = 0.6 to 1.2 (frugivorous birds & mammals in tropical forests Z = 1.15).",
+      "The Evil Quartet (Causes of Biodiversity Loss): 1. Habitat loss and fragmentation (most important!), 2. Over-exploitation, 3. Alien species invasions (Nile perch, Water hyacinth, Clarias gariepinus), 4. Co-extinctions.",
+      "Sacred Groves (In-situ conservation): Khasi & Jaintia hills in Meghalaya, Aravalli hills of Rajasthan, Western Ghats regions of Karnataka and Maharashtra."
+    ],
+    "formulaHints": [
+      "Logistic Population Growth: dN/dt = rN [(K - N) / K] (produces Sigmoid / S-shaped curve; K = carrying capacity)",
+      "Net Primary Productivity NPP = GPP - Respiration losses (R)",
+      "Population Interaction symbols: Mutualism (+, +); Commensalism (+, 0); Predation (+, -); Parasitism (+, -); Amensalism (-, 0); Competition (-, -)"
+    ],
+    "commonMistakes": [
+      "Classifying Botanical Gardens or Cryopreservation as in-situ conservation. Botanical gardens, zoos, and cryopreservation are strictly EX-SITU (off-site) conservation.",
+      "Thinking pyramid of biomass in tree ecosystem is inverted. Pyramid of NUMBERS on a single tree is inverted (1 tree → many birds → hyperparasites), but pyramid of biomass on a tree is upright."
+    ],
+    "shortTricks": [
+      "Amensalism example to memorize: Penicillium producing penicillin which kills bacteria (Penicillium is unaffected: 0, bacteria killed: -).",
+      "Commensalism examples: Epiphyte orchid on mango branch (+, 0); Barnacles on back of whale (+, 0); Cattle egret and grazing cattle (+, 0); Sea anemone and clown fish (+, 0)."
+    ],
+    "recommendedBooks": ["NCERT Class 12 Biology", "MTG NCERT at your Fingertips"]
+  }
+]

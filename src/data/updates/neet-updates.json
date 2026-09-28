@@ -1,0 +1,54 @@
+[
+  {
+    "id": "upd-2026-01",
+    "date": "2026-09-20",
+    "category": "Syllabus",
+    "title": "NMC Re-confirms Harmonized NEET-UG Syllabus for Upcoming Sessions",
+    "titleHi": "NMC ने आगामी सत्रों के लिए NEET-UG के सुव्यवस्थित पाठ्यक्रम की पुनः पुष्टि की",
+    "summary": "Undergraduate Medical Education Board (UGMEB), National Medical Commission (NMC) maintains the trimmed NEET-UG syllabus aligned with revised rationalized NCERT textbooks, emphasizing practical physics and core conceptual clarity.",
+    "summaryHi": "राष्ट्रीय चिकित्सा आयोग (NMC) ने तर्कसंगत NCERT पाठ्यपुस्तकों के अनुरूप NEET-UG के संशोधित पाठ्यक्रम को जारी रखा है, जिसमें प्रायोगिक भौतिकी और आधारभूत अवधारणाओं पर विशेष बल दिया गया है।",
+    "officialSource": "National Medical Commission (NMC) Official Circular",
+    "officialLink": "https://www.nmc.org.in/",
+    "lastVerified": "2026-09-28",
+    "isImportant": true
+  },
+  {
+    "id": "upd-2026-02",
+    "date": "2026-08-15",
+    "category": "Counselling",
+    "title": "MCC Special Stray Vacancy Round Guidelines Published for 15% AIQ",
+    "titleHi": "15% ऑल इंडिया कोटा के लिए MCC स्पेशल स्ट्रे वैकेंसी राउंड दिशानिर्देश जारी",
+    "summary": "Medical Counselling Committee (MCC) published strict merit-based regulations for mop-up and stray vacancy rounds across AIIMS, JIPMER, Central Universities and Deemed Medical Institutions.",
+    "summaryHi": "मेडिकल काउंसलिंग कमेटी (MCC) ने AIIMS, JIPMER, केंद्रीय विश्वविद्यालयों और डीम्ड मेडिकल संस्थानों में मेरिट आधारित नियमों को सख्ती से लागू करने के निर्देश जारी किए।",
+    "officialSource": "Medical Counselling Committee (MCC / DGHS)",
+    "officialLink": "https://mcc.nic.in/",
+    "lastVerified": "2026-09-28",
+    "isImportant": false
+  },
+  {
+    "id": "upd-2026-03",
+    "date": "2026-06-04",
+    "category": "Result",
+    "title": "Official NEET-UG Scorecard and Percentile Computation Methodology",
+    "titleHi": "आधिकारिक NEET-UG स्कोरकार्ड एवं पर्सेंटाइल गणना पद्धति",
+    "summary": "NTA maintains multi-tiered tie-breaking procedure: 1. Higher marks in Biology, 2. Higher marks in Chemistry, 3. Higher marks in Physics, 4. Lower proportion of incorrect answers across subjects.",
+    "summaryHi": "NTA ने टाई-ब्रेकिंग नियमों को स्पष्ट किया: 1. जीव विज्ञान में अधिक अंक, 2. रसायन विज्ञान में अधिक अंक, 3. भौतिकी में अधिक अंक, 4. कम गलत उत्तरों का अनुपात।",
+    "officialSource": "National Testing Agency (NTA)",
+    "officialLink": "https://exams.nta.ac.in/NEET/",
+    "lastVerified": "2026-09-28",
+    "isImportant": true
+  },
+  {
+    "id": "upd-2026-04",
+    "date": "2026-05-05",
+    "category": "Exam Date",
+    "title": "NEET-UG Examination Conduct Schedule & Instructions",
+    "titleHi": "NEET-UG परीक्षा आयोजन कार्यक्रम एवं महत्वपूर्ण निर्देश",
+    "summary": "Single-shift pen-paper examination conducted across 500+ Indian cities and 14 international centers from 02:00 PM to 05:20 PM IST (200 minutes duration).",
+    "summaryHi": "500 से अधिक भारतीय शहरों और 14 अंतर्राष्ट्रीय केंद्रों में एकल पाली में दोपहर 02:00 बजे से शाम 05:20 बजे (200 मिनट) तक परीक्षा का आयोजन।",
+    "officialSource": "National Testing Agency (NTA)",
+    "officialLink": "https://exams.nta.ac.in/NEET/",
+    "lastVerified": "2026-09-28",
+    "isImportant": true
+  }
+]

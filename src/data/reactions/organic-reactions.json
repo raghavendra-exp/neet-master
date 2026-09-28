@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rxn-01",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "name": "Aldol Condensation & Cross Aldol",
+    "reactant": "Aldehyde or Ketone possessing at least one α-hydrogen atom (e.g. 2 CH₃CHO)",
+    "reagent": "Dilute aqueous alkali (dil. NaOH or Ba(OH)₂)",
+    "condition": "Warm, followed by heating to eliminate water",
+    "product": "β-hydroxyaldehyde (Aldol) -> α,β-unsaturated carbonyl compound (e.g. But-2-enal)",
+    "mechanismType": "Nucleophilic addition across carbonyl followed by E1cB dehydration",
+    "keyRule": "Carbanion is formed at the α-carbon and attacks the second carbonyl carbon atom.",
+    "pyqFrequency": "Asked in NEET 2024, 2022, 2021, 2019"
+  },
+  {
+    "id": "rxn-02",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "name": "Cannizzaro Reaction",
+    "reactant": "Aldehyde having NO α-hydrogen atom (e.g. HCHO, C₆H₅CHO)",
+    "reagent": "Concentrated alkali (50% NaOH or KOH)",
+    "condition": "Heating",
+    "product": "Equimolar mixture of an alcohol and a carboxylate salt (self-redox disproportionation)",
+    "mechanismType": "Hydride ion (:H⁻) transfer from one tetrahedral intermediate to another carbonyl",
+    "keyRule": "In Cross Cannizzaro with Formaldehyde, Formaldehyde is ALWAYS oxidized to formic acid salt (HCOONa).",
+    "pyqFrequency": "Asked in NEET 2023, 2020, 2018"
+  },
+  {
+    "id": "rxn-03",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "name": "Hell-Volhard-Zelinsky (HVZ) Reaction",
+    "reactant": "Carboxylic acid with α-hydrogen (e.g. CH₃COOH)",
+    "reagent": "X₂ (Cl₂ or Br₂) in presence of Red Phosphorus, followed by H₂O",
+    "condition": "Catalytic Red P",
+    "product": "α-halocarboxylic acid (e.g. CH₂Cl-COOH)",
+    "mechanismType": "In-situ acyl halide enol halogenation followed by hydrolysis",
+    "keyRule": "Selective α-substitution; does not affect the -COOH carbonyl carbon directly.",
+    "pyqFrequency": "Asked in NEET 2021, 2019"
+  },
+  {
+    "id": "rxn-04",
+    "chapter": "Hydrocarbons",
+    "name": "Ozonolysis of Alkenes",
+    "reactant": "Alkene (R-CH=CH-R')",
+    "reagent": "1. Ozone (O₃) in inert solvent (CH₂Cl₂), 2. Zn / H₂O (Reductive) or H₂O₂ (Oxidative)",
+    "condition": "Low temperature (cold inert solvent)",
+    "product": "Zn dust gives Aldehydes and Ketones without over-oxidation; H₂O₂ oxidizes aldehydes to acids",
+    "mechanismType": "1,3-dipolar cycloaddition to molozonide, rearrangement to ozonide, Zn reductive cleavage",
+    "keyRule": "Cleaves C=C double bond cleanly to locate positions of double bonds in unknown structures.",
+    "pyqFrequency": "Asked in NEET 2024, 2023, 2020"
+  },
+  {
+    "id": "rxn-05",
+    "chapter": "Organic Chemistry - Some Basic Principles and Techniques (GOC)",
+    "name": "Reimer-Tiemann Reaction",
+    "reactant": "Phenol (C₆H₅OH)",
+    "reagent": "Chloroform (CHCl₃) + aqueous NaOH",
+    "condition": "Warm ~60-70°C, followed by acid workup",
+    "product": "Salicylaldehyde (2-hydroxybenzaldehyde as major product)",
+    "mechanismType": "Electrophilic substitution by electrophile Dichlorocarbene (:CCl₂)",
+    "keyRule": "Intermediate electrophile is neutral singlet Dichlorocarbene (:CCl₂) possessing 6 valence electrons.",
+    "pyqFrequency": "Asked in NEET 2024, 2021, 2018"
+  }
+]

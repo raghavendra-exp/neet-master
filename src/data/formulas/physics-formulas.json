@@ -1,0 +1,80 @@
+[
+  {
+    "id": "form-phy-01",
+    "chapter": "Physics and Measurement",
+    "name": "Least Count of Screw Gauge",
+    "formula": "LC = Pitch / (Total Head Scale Divisions)",
+    "variables": "LC: Least count; Pitch: Distance moved in one complete rotation; Divisions: Circular scale graduations",
+    "siUnits": "meters (m) or millimeters (mm)",
+    "meaning": "Defines the smallest measurable thickness or diameter using micrometer screw gauge.",
+    "conditions": "Applicable for standard pitch and circular scale screw gauges without uncorrected zero error.",
+    "example": "If pitch is 0.5 mm and divisions = 50, then LC = 0.5/50 = 0.01 mm.",
+    "commonMistake": "Neglecting zero error: Correct reading = Observed Reading - (± Zero Error).",
+    "relatedPyq": "NEET 2024, NEET 2020"
+  },
+  {
+    "id": "form-phy-02",
+    "chapter": "Kinematics",
+    "name": "Horizontal Range of Projectile",
+    "formula": "R = (u² sin 2θ) / g = (2 u_x u_y) / g",
+    "variables": "u: Initial projection speed; θ: Angle of projection with horizontal; g: Acceleration due to gravity",
+    "siUnits": "meters (m)",
+    "meaning": "Horizontal displacement of projectile from launch to return to same horizontal level.",
+    "conditions": "Air resistance neglected; flat ground level.",
+    "example": "At θ = 45°, Range is maximum: R_max = u² / g.",
+    "commonMistake": "Thinking ranges are different for complementary angles: Angles θ and (90° - θ) have the EXACT same range.",
+    "relatedPyq": "NEET 2022, NEET 2017"
+  },
+  {
+    "id": "form-phy-03",
+    "chapter": "Laws of Motion",
+    "name": "Banking of Roads (Maximum Safe Speed)",
+    "formula": "v_max = √[ r g (tan θ + μ) / (1 - μ tan θ) ]",
+    "variables": "r: Radius of curvature; g: 9.8 m/s²; θ: Banking angle; μ: Coefficient of static friction",
+    "siUnits": "meters/second (m/s)",
+    "meaning": "Maximum safe speed to negotiate a curved banked road without skidding outward.",
+    "conditions": "When friction μ is zero, optimum speed v_opt = √(rg tan θ).",
+    "example": "On frictionless ice-covered banked road: tan θ = v² / (rg).",
+    "commonMistake": "Inverting numerator and denominator terms in the tangent-friction formula.",
+    "relatedPyq": "NEET 2023, NEET 2019"
+  },
+  {
+    "id": "form-phy-04",
+    "chapter": "Gravitation",
+    "name": "Escape Velocity from Planetary Surface",
+    "formula": "v_e = √(2 G M / R) = √(2 g R)",
+    "variables": "G: Universal gravitational constant; M: Mass of planet; R: Radius of planet; g: Surface gravity",
+    "siUnits": "m/s or km/s (Earth v_e ≈ 11.2 km/s)",
+    "meaning": "Minimum speed required for a projectile to permanently escape the gravitational pull of a celestial body.",
+    "conditions": "Independent of mass of the projected body and angle of projection.",
+    "example": "If mass of Earth quadruples and radius doubles: v_e' = √[2G(4M)/(2R)] = √2 · v_e.",
+    "commonMistake": "Thinking escape velocity depends on the launch angle. It depends ONLY on the planet's mass and radius.",
+    "relatedPyq": "NEET 2024, NEET 2021"
+  },
+  {
+    "id": "form-phy-05",
+    "chapter": "Thermodynamics and KTG",
+    "name": "Carnot Engine Thermal Efficiency",
+    "formula": "η = 1 - (T_C / T_H) = (W / Q_H) = (Q_H - Q_C) / Q_H",
+    "variables": "T_C: Temperature of cold reservoir (sink) in Kelvin; T_H: Temperature of hot reservoir (source) in Kelvin",
+    "siUnits": "Dimensionless ratio or percentage (%)",
+    "meaning": "Theoretical maximum efficiency of any heat engine operating between two thermal baths.",
+    "conditions": "Temperatures MUST strictly be expressed in Kelvin (K), not Celsius.",
+    "example": "For source at 400 K and sink at 300 K, η = 1 - 300/400 = 0.25 (25%).",
+    "commonMistake": "Plugging temperatures in Celsius (°C), which yields wildly wrong answers.",
+    "relatedPyq": "NEET 2024, NEET 2023, NEET 2020"
+  },
+  {
+    "id": "form-phy-06",
+    "chapter": "Optics (Ray and Wave)",
+    "name": "YDSE Fringe Width",
+    "formula": "β = (λ D) / d",
+    "variables": "λ: Wavelength of monochromatic light; D: Distance between slits and screen; d: Distance between the two coherent slits",
+    "siUnits": "meters (m) or millimeters (mm)",
+    "meaning": "Distance between any two consecutive bright or two consecutive dark interference fringes.",
+    "conditions": "d << D and λ << d; Monochromatic coherent sources.",
+    "example": "Immersing apparatus in water (μ = 4/3) reduces fringe width to β' = β / μ = 0.75 β.",
+    "commonMistake": "Confusing slit width d with distance to screen D.",
+    "relatedPyq": "NEET 2022, NEET 2020, NEET 2018"
+  }
+]

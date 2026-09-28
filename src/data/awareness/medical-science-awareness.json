@@ -1,0 +1,67 @@
+[
+  {
+    "id": "med-sci-01",
+    "title": "Nobel Prize in Physiology or Medicine: MicroRNA Discovery and Post-Transcriptional Regulation",
+    "titleHi": "शरीरक्रिया विज्ञान या चिकित्सा में नोबेल पुरस्कार: माइक्रो-RNA की खोज और जीन नियमन",
+    "category": "Nobel Science",
+    "date": "2024-10-07",
+    "readTime": "4 min read",
+    "summary": "Victor Ambros and Gary Ruvkun were awarded the Nobel Prize for the discovery of microRNA and its fundamental role in post-transcriptional gene regulation in multicellular organisms.",
+    "content": [
+      "MicroRNAs (miRNAs) are tiny non-coding RNA molecules consisting of approximately 21 to 24 nucleotides that play a pivotal role in gene regulation.",
+      "Rather than coding for proteins, miRNAs bind to complementary sequences on target messenger RNA (mRNA) transcripts, either destabilizing the mRNA or repressing its translation by the ribosome.",
+      "The initial discovery was made studying the nematode Caenorhabditis elegans, revealing that lin-4 gene produced a small RNA that blocked lin-14 protein synthesis.",
+      "This fundamental biological mechanism is conserved across all multicellular organisms, including humans, and is crucial for embryonic development, cellular differentiation, and oncology research."
+    ],
+    "keyTakeaways": [
+      "miRNAs are small non-coding regulatory RNAs (21-24 nt)",
+      "Regulate gene expression post-transcriptionally by base pairing with target mRNA",
+      "Essential for normal cell differentiation and human physiology"
+    ],
+    "source": "Nobel Assembly at Karolinska Institutet",
+    "disclaimer": "EDUCATIONAL ENRICHMENT: This topic is for scientific awareness and is NOT a scored component of the NEET-UG examination syllabus unless officially notified."
+  },
+  {
+    "id": "med-sci-02",
+    "title": "CRISPR-Cas9 Gene Editing Therapeutics: Sickle Cell & Thalassemia Milestone",
+    "titleHi": "CRISPR-Cas9 जीन संपादन उपचार: सिकल सेल और थैलेसीमिया में ऐतिहासिक सफलता",
+    "category": "Biotechnology & Therapeutics",
+    "date": "2024-05-18",
+    "readTime": "5 min read",
+    "summary": "Global regulatory approvals (including Casgevy) establish CRISPR-Cas9 genome editing as a clinically validated therapeutic strategy for sickle cell disease and transfusion-dependent beta-thalassemia.",
+    "content": [
+      "Casgevy (exa-cel) utilizes CRISPR-Cas9 to edit a patient's hematopoietic stem and progenitor cells (HSPCs) ex vivo.",
+      "The gene target is the BCL11A erythroid-specific enhancer, which normally silences the production of fetal hemoglobin (HbF, α₂γ₂) after birth.",
+      "By disrupting the BCL11A enhancer, the edit reactivates high levels of fetal hemoglobin in mature red blood cells.",
+      "Fetal hemoglobin prevents the polymerization of mutant sickle hemoglobin (HbS), preventing sickling crisis and alleviating chronic severe anemia."
+    ],
+    "keyTakeaways": [
+      "Disrupts BCL11A repressor to turn on Fetal Hemoglobin (HbF)",
+      "Provides functional cure for severe monogenic hemoglobinopathies",
+      "Direct real-world connection to NEET topics on Sickle Cell Anemia and Biotechnology"
+    ],
+    "source": "Nature Biotechnology & Global Health Regulatory Bulletins",
+    "disclaimer": "EDUCATIONAL ENRICHMENT: This topic is for scientific awareness and is NOT a scored component of the NEET-UG examination syllabus unless officially notified."
+  },
+  {
+    "id": "med-sci-03",
+    "title": "Artificial Intelligence in Modern Diagnostic Medicine and Drug Discovery",
+    "titleHi": "आधुनिक नैदानिक चिकित्सा और औषधि अनुसंधान में कृत्रिम बुद्धिमत्ता (AI)",
+    "category": "AI in Medicine",
+    "date": "2024-08-12",
+    "readTime": "4 min read",
+    "summary": "Deep learning models (like AlphaFold and automated radiological diagnostic suites) are transforming protein structure prediction, genomic screening, and early cancer detection.",
+    "content": [
+      "Deep learning neural networks can now predict 3D folded structures of nearly all known 200+ million proteins from amino acid sequences alone with atomic accuracy.",
+      "In clinical radiology, convolutional neural networks assist clinicians in detecting micro-calcifications on mammograms, early pulmonary nodules on low-dose chest CTs, and diabetic retinopathy on retinal fundus scans.",
+      "High-throughput virtual screening algorithms rapidly identify candidate small-molecule inhibitors for previously 'undruggable' biological targets."
+    ],
+    "keyTakeaways": [
+      "AlphaFold and transformer architectures accelerate structural biology",
+      "AI serves as high-precision assistive tool for clinicians, radiologists, and pathologysts",
+      "Connects directly with protein folding and tertiary conformation in NCERT Biomolecules"
+    ],
+    "source": "World Health Organization (WHO) Guidance on AI in Health",
+    "disclaimer": "EDUCATIONAL ENRICHMENT: This topic is for scientific awareness and is NOT a scored component of the NEET-UG examination syllabus unless officially notified."
+  }
+]

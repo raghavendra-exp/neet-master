@@ -1,0 +1,58 @@
+{
+  "lastVerified": "2026-09-28",
+  "disclaimer": "This information is compiled strictly from official MCC (DGHS) and NMC bulletins. Seat matrices and schedules vary each academic year. No admission guarantees or fabricated cut-off predictions are provided.",
+  "centralCounselling": {
+    "authority": "Medical Counselling Committee (MCC), Directorate General of Health Services (DGHS)",
+    "officialWebsite": "https://mcc.nic.in/",
+    "scope": [
+      "15% All India Quota (AIQ) MBBS/BDS seats in Government Medical Colleges across India (excluding J&K where specific rules apply)",
+      "100% MBBS seats in all All India Institutes of Medical Sciences (AIIMS) across India",
+      "100% MBBS seats in JIPMER Puducherry and Karaikal",
+      "100% seats in Central Universities (AMU, BHU, Jamia Millia Islamia, Delhi University - MAMC, LHMC, UCMS)",
+      "100% seats in Deemed Universities across India",
+      "ESIC Medical Colleges Insured Persons (IP) Quota"
+    ],
+    "rounds": [
+      {
+        "roundName": "Round 1",
+        "description": "Online registration, choice filling, locking, seat allotment, and reporting. Free exit option available."
+      },
+      {
+        "roundName": "Round 2",
+        "description": "Fresh registration allowed. Candidates who joined in Round 1 can upgrade. Forfeiture of security deposit if allotted and not joined."
+      },
+      {
+        "roundName": "Round 3 (Mop-Up)",
+        "description": "Exclusively for candidates without an allotted/admitted seat in Round 1 or 2. Strict rules to prevent seat blocking."
+      },
+      {
+        "roundName": "Stray Vacancy Round",
+        "description": "Conducted online by MCC to fill any residual vacant seats strictly in order of merit without fresh registration."
+      }
+    ]
+  },
+  "stateCounselling": {
+    "scope": "85% State Quota seats in State Government Medical/Dental Colleges and 100% seats in State Private Medical Colleges.",
+    "domicileRule": "State eligibility requires meeting respective state domicile, schooling, and residency criteria.",
+    "stateAuthorities": [
+      { "state": "Uttar Pradesh", "authority": "Directorate of Medical Education and Training (UP DGME)", "website": "https://dgme.up.gov.in/" },
+      { "state": "Maharashtra", "authority": "State Common Entrance Test Cell (CET Cell)", "website": "https://cetcell.mahacet.org/" },
+      { "state": "Rajasthan", "authority": "NEET UG Medical & Dental Admission/Counseling Board", "website": "https://rajugneet2024.org/" },
+      { "state": "Tamil Nadu", "authority": "Directorate of Medical Education and Research (Selection Committee)", "website": "https://tnmedicalselection.net/" },
+      { "state": "Karnataka", "authority": "Karnataka Examinations Authority (KEA)", "website": "https://cetonline.karnataka.gov.in/kea/" },
+      { "state": "Kerala", "authority": "Commissioner for Entrance Examinations (CEE Kerala)", "website": "https://cee.kerala.gov.in/" },
+      { "state": "West Bengal", "authority": "Department of Health & Family Welfare (WB BMOH)", "website": "https://wbmcc.nic.in/" }
+    ]
+  },
+  "mandatoryDocuments": [
+    "NEET-UG Admit Card issued by NTA",
+    "NEET-UG Score Card / Rank Letter",
+    "Class 10 Certificate and Mark Sheet (for Date of Birth proof)",
+    "Class 12 Certificate and Mark Sheet (showing PCB and English marks)",
+    "Valid Government Photo ID Proof (Aadhaar Card / PAN Card / Driving License / Passport)",
+    "Passport size photographs (8-10 copies identical to the photograph uploaded in NEET application)",
+    "Provisional Seat Allotment Letter generated online from MCC or State portal",
+    "Category Certificate (SC / ST / OBC-NCL / EWS) in prescribed Central/State format if applicable",
+    "PwD Disability Certificate issued by designated Disability Assessment Centers if applicable"
+  ]
+}

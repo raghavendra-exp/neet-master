@@ -1,0 +1,24 @@
+name: Data Sync & Exam Verification Report
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for exam data verification'
+        required: false
+        default: 'Routine monthly audit'
+
+jobs:
+  audit-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate Exam Schemas
+        run: node scripts/validate-content.js

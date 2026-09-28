@@ -1,0 +1,29 @@
+name: Content Integrity & Schema Validation
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'src/data/**'
+      - 'scripts/**'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'src/data/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Schema & Question Integrity Check
+        run: node scripts/validate-content.js

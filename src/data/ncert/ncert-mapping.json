@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ncert-bio-11-01",
+    "neetTopic": "The Living World: Taxonomic Categories",
+    "subject": "Biology",
+    "ncertClass": 11,
+    "chapterNumber": 1,
+    "chapterName": "The Living World",
+    "pageSection": "Section 1.3 - Taxonomic Categories (Pages 8-12)",
+    "officialEpathshalaLink": "https://epathshala.nic.in/process.php?id=students&type=e-textbooks&ln=en",
+    "summary": "Covers hierarchical taxonomic classification: Species -> Genus -> Family -> Order -> Class -> Phylum/Division -> Kingdom with specific examples like Homo sapiens, Panthera leo, Mangifera indica, Solanum tuberosum.",
+    "highYieldPoints": [
+      "Taxonomic categories from lowest (Species) to highest (Kingdom).",
+      "As we go higher from species to kingdom, the number of common characteristics decreases.",
+      "Mangifera indica: Family Anacardiaceae, Order Sapindales, Class Dicotyledonae, Division Angiospermae.",
+      "Homo sapiens: Family Hominidae, Order Primata, Class Mammalia, Phylum Chordata."
+    ],
+    "potentialMcqThemes": [
+      "Order of classification taxa",
+      "Family vs Order of Housefly (Musca domestica: Family Muscidae, Order Diptera)",
+      "Characteristics common at species level vs kingdom level"
+    ],
+    "pyqFrequency": "Asked in NEET 2016, 2018, 2021, 2023"
+  },
+  {
+    "id": "ncert-bio-11-02",
+    "neetTopic": "Biological Classification: Five Kingdom System",
+    "subject": "Biology",
+    "ncertClass": 11,
+    "chapterNumber": 2,
+    "chapterName": "Biological Classification",
+    "pageSection": "Section 2.1 to 2.5 (Pages 16-28)",
+    "officialEpathshalaLink": "https://epathshala.nic.in/process.php?id=students&type=e-textbooks&ln=en",
+    "summary": "Whittaker's 1969 5-kingdom classification based on cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships.",
+    "highYieldPoints": [
+      "Monera: Archaebacteria live in extreme environments (halophiles, thermoacidophiles, methanogens with branched lipid chains in cell membrane).",
+      "Mycoplasma: completely lack cell wall, smallest living cells, can survive without oxygen.",
+      "Chrysophytes: Diatoms have silica walls forming indestructible diatomaceous earth (used in polishing and filtration).",
+      "Fungi: Cell walls composed of chitin and polysaccharides; Ascomycetes (conidia exogenously on conidiophores).",
+      "Lichens: Symbiotic association between alga (phycobiont, autotrophic) and fungus (mycobiont, heterotrophic). Excellent pollution indicators that do not grow in SO₂ polluted areas."
+    ],
+    "potentialMcqThemes": [
+      "Methanogen habitat (rumen of cattle)",
+      "Red tides caused by Dinoflagellates (Gonyaulax)",
+      "Imperfect fungi (Deuteromycetes, e.g. Alternaria, Colletotrichum, Trichoderma)"
+    ],
+    "pyqFrequency": "Consistently 3-4 questions every year in NEET"
+  },
+  {
+    "id": "ncert-bio-12-01",
+    "neetTopic": "Molecular Basis of Inheritance: DNA Structure & Replication",
+    "subject": "Biology",
+    "ncertClass": 12,
+    "chapterNumber": 6,
+    "chapterName": "Molecular Basis of Inheritance",
+    "pageSection": "Section 6.1 to 6.4 (Pages 95-108)",
+    "officialEpathshalaLink": "https://epathshala.nic.in/process.php?id=students&type=e-textbooks&ln=en",
+    "summary": "Watson-Crick B-DNA double helix model, Chargaff's rule, packaging of DNA helix in nucleosomes, Meselson and Stahl experiment.",
+    "highYieldPoints": [
+      "B-DNA: Pitch is 3.4 nm with roughly 10 base pairs per turn (0.34 nm distance between base pairs).",
+      "Nucleosome: 200 bp of DNA helix wrapped around octamer of basic histone proteins (H2A, H2B, H3, H4) with H1 histone holding entry/exit.",
+      "Meselson & Stahl (1958): Used heavy nitrogen ¹⁵N and CsCl density gradient centrifugation to prove semi-conservative replication in E. coli.",
+      "DNA Polymerase: Synthesizes DNA ONLY in 5' -> 3' direction with high fidelity and proofreading."
+    ],
+    "potentialMcqThemes": [
+      "Chargaff rule ratio calculations: %A = %T and %G = %C",
+      "Centrifugation bands after generation I and generation II in Meselson-Stahl experiment",
+      "Leading vs Lagging strand (Okazaki fragments joined by DNA ligase)"
+    ],
+    "pyqFrequency": "Ultra high yield: 5-7 questions every year in NEET"
+  },
+  {
+    "id": "ncert-chm-11-01",
+    "neetTopic": "Chemical Bonding: VSEPR & Hybridization",
+    "subject": "Chemistry",
+    "ncertClass": 11,
+    "chapterNumber": 4,
+    "chapterName": "Chemical Bonding and Molecular Structure",
+    "pageSection": "Section 4.2 to 4.5 (Pages 102-124)",
+    "officialEpathshalaLink": "https://epathshala.nic.in/process.php?id=students&type=e-textbooks&ln=en",
+    "summary": "Explains covalent molecular shapes, valence shell electron pair repulsions, hybridization schemes, and bond dipoles.",
+    "highYieldPoints": [
+      "Repulsion order: lp-lp > lp-bp > bp-bp.",
+      "XeF₄: Steric number 6 (4 bond pairs + 2 lone pairs) -> sp³d² hybridization, Square Planar shape.",
+      "XeOF₄: Square Pyramidal; XeF₂: Linear (3 equatorial lone pairs).",
+      "Bond order formula and magnetic behavior from Molecular Orbital Theory."
+    ],
+    "potentialMcqThemes": [
+      "Isoelectronic species with identical shapes (e.g. ClO₃⁻ and SO₃²⁻)",
+      "Dipole moments of NH₃ vs NF₃",
+      "Paramagnetism of O₂ and B₂"
+    ],
+    "pyqFrequency": "At least 3-4 questions every year in NEET"
+  },
+  {
+    "id": "ncert-phy-12-01",
+    "neetTopic": "Current Electricity: Kirchhoff's Laws and Resistors",
+    "subject": "Physics",
+    "ncertClass": 12,
+    "chapterNumber": 3,
+    "chapterName": "Current Electricity",
+    "pageSection": "Section 3.1 to 3.9 (Pages 93-125)",
+    "officialEpathshalaLink": "https://epathshala.nic.in/process.php?id=students&type=e-textbooks&ln=en",
+    "summary": "Ohm's law, drift velocity, resistivity, emf, series-parallel combinations of cells, and Kirchhoff's loop rules.",
+    "highYieldPoints": [
+      "Drift velocity v_d = eEτ/m; Current I = n A e v_d.",
+      "Junction Rule represents Conservation of Charge; Loop Rule represents Conservation of Energy.",
+      "Cells in parallel: E_eq = (E₁/r₁ + E₂/r₂) / (1/r₁ + 1/r₂).",
+      "Balanced Wheatstone Bridge: P/Q = R/S -> current in central galvanometer arm is zero."
+    ],
+    "potentialMcqThemes": [
+      "Stretching of wire by n times or x%",
+      "Maximum power transfer theorem",
+      "Terminal voltage V = E - Ir (discharging) vs V = E + Ir (charging)"
+    ],
+    "pyqFrequency": "3 questions consistently in NEET"
+  }
+]

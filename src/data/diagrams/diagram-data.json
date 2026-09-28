@@ -1,0 +1,60 @@
+[
+  {
+    "id": "diag-heart",
+    "title": "Human Heart & Internal Chambers",
+    "titleHi": "मानव हृदय एवं आंतरिक कोष्ठक",
+    "subject": "Biology",
+    "chapter": "Human Physiology (Circulation)",
+    "description": "Double circulation overview showing Right Atrium, Right Ventricle, Left Atrium, Left Ventricle, Bicuspid/Mitral and Tricuspid valves, Aorta, and Pulmonary Artery.",
+    "labels": [
+      { "id": "l-ra", "name": "Right Atrium", "nameHi": "दायां अलिंद", "x": 30, "y": 35, "function": "Receives deoxygenated blood from Superior and Inferior Vena Cava (Contains SA Node at upper right corner)" },
+      { "id": "l-rv", "name": "Right Ventricle", "nameHi": "दायां निलय", "x": 35, "y": 65, "function": "Pumps deoxygenated blood into Pulmonary Artery through semilunar valve" },
+      { "id": "l-la", "name": "Left Atrium", "nameHi": "बायां अलिंद", "x": 70, "y": 35, "function": "Receives oxygenated blood from 4 Pulmonary Veins" },
+      { "id": "l-lv", "name": "Left Ventricle", "nameHi": "बायां निलय", "x": 65, "y": 70, "function": "Thickest muscular wall; pumps oxygenated blood into systemic Aorta to supply entire body" },
+      { "id": "l-aorta", "name": "Systemic Aorta", "nameHi": "महाधमनी", "x": 50, "y": 15, "function": "Carries oxygenated blood at peak systolic pressure (120 mm Hg) to body tissues" }
+    ],
+    "highYieldNcrtFacts": [
+      "SA Node (Sino-atrial node) generates maximum action potentials (70-75 per min) and is the natural pacemaker.",
+      "Tricuspid valve guards the right atrio-ventricular opening; Bicuspid / Mitral valve guards the left.",
+      "First heart sound 'LUB' is produced by closure of atrio-ventricular (tricuspid and bicuspid) valves; second sound 'DUB' by closure of semilunar valves."
+    ]
+  },
+  {
+    "id": "diag-nephron",
+    "title": "Structure of Nephron & Counter-Current System",
+    "titleHi": "वृक्काणु (नेफ्रॉन) की संरचना एवं प्रतिधारा क्रियाविधि",
+    "subject": "Biology",
+    "chapter": "Human Physiology (Excretion)",
+    "description": "Functional microscopic filtration unit of the kidney: Malpighian body (Bowman's capsule + Glomerulus), PCT, Henle's Loop, DCT, and Collecting Duct.",
+    "labels": [
+      { "id": "l-glom", "name": "Glomerulus & Bowman's Capsule", "nameHi": "ग्लोमेरुलस एवं बोमन संपुट", "x": 25, "y": 20, "function": "Ultrafiltration under glomerular capillary hydrostatic pressure (~60 mm Hg); Podocytes form slit pores" },
+      { "id": "l-pct", "name": "Proximal Convoluted Tubule (PCT)", "nameHi": "समीपस्थ संवलित नलिका (PCT)", "x": 45, "y": 30, "function": "Reabsorbs 70-80% of electrolytes and water, and 100% of glucose & amino acids via brush border cuboidal epithelium" },
+      { "id": "l-desc", "name": "Descending Limb of Henle", "nameHi": "हेनले लूप की अवरोही भुजा", "x": 35, "y": 65, "function": "Permeable to water, impermeable to electrolytes -> tubular fluid becomes concentrated (hypertonic)" },
+      { "id": "l-asc", "name": "Ascending Limb of Henle", "nameHi": "हेनले लूप की आरोही भुजा", "x": 55, "y": 65, "function": "Impermeable to water, actively transports NaCl out into medullary interstitium -> fluid becomes hypotonic" },
+      { "id": "l-dct", "name": "Distal Convoluted Tubule (DCT)", "nameHi": "दूरस्थ संवलित नलिका (DCT)", "x": 75, "y": 25, "function": "Conditional reabsorption of Na⁺ and water under influence of Aldosterone and ADH; selective secretion of K⁺, H⁺, NH₃" }
+    ],
+    "highYieldNcrtFacts": [
+      "Counter-current mechanism between Henle's loop and Vasa recta creates a steep osmotic gradient from 300 mOsm/L (cortex) to 1200 mOsm/L (inner medulla).",
+      "Juxtaglomerular Apparatus (JGA) consists of Macula Densa cells of DCT and specialized granular JG cells of afferent arteriole, secreting Renin when GFR falls."
+    ]
+  },
+  {
+    "id": "diag-neuron",
+    "title": "Neuron (Nerve Cell) & Synaptic Junction",
+    "titleHi": "तंत्रिका कोशिका (न्यूरॉन) एवं सिनेप्स",
+    "subject": "Biology",
+    "chapter": "Human Physiology (Neural Control)",
+    "description": "Cyton / Cell body with Nissl's granules, Dendrites, Myelinated Axon with Nodes of Ranvier, and Synaptic Knobs containing neurotransmitter vesicles.",
+    "labels": [
+      { "id": "l-cyton", "name": "Cell Body / Soma", "nameHi": "कोशिका काय (साइटॉन)", "x": 25, "y": 40, "function": "Contains cytoplasm, nucleus, and Nissl's granules (composed of rough ER and free ribosomes for protein synthesis)" },
+      { "id": "l-dendrite", "name": "Dendrites", "nameHi": "द्रुमाक्ष्य (डेंड्राइट्स)", "x": 15, "y": 25, "function": "Short, branched projections that convey electrical signals toward the cell body" },
+      { "id": "l-axon", "name": "Myelinated Axon", "nameHi": "माइलिन आच्छदित तंत्रिकाक्ष", "x": 55, "y": 45, "function": "Schwann cells wrap around axon producing myelin sheath; enables high-speed saltatory conduction" },
+      { "id": "l-nodes", "name": "Nodes of Ranvier", "nameHi": "रेनविअर की गांठ", "x": 60, "y": 55, "function": "Gaps between adjacent myelin sheaths where voltage-gated Na⁺/K⁺ channels are concentrated" },
+      { "id": "l-synapse", "name": "Synaptic Knob", "nameHi": "सिनेप्टिक घुंडी", "x": 85, "y": 60, "function": "Releases chemical neurotransmitters (e.g., Acetylcholine) into synaptic cleft triggered by Ca²⁺ influx" }
+    ],
+    "highYieldNcrtFacts": [
+      "Resting potential (-70 mV): Axonal membrane is more permeable to K⁺ than to Na⁺, and impermeable to negatively charged proteins inside axoplasm.",
+      "Action potential (+30 mV): Rapid influx of Na⁺ through voltage-gated sodium channels causes depolarization."
+    ]
+  }
+]
