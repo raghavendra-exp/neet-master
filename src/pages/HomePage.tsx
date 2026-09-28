@@ -46,8 +46,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
     <div className="space-y-10 animate-in fade-in duration-300">
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-900 via-slate-900 to-medical-950 text-white p-6 sm:p-10 lg:p-12 shadow-2xl border border-brand-800/40">
-        <div className="absolute top-0 right-0 -mt-10 -mr-10 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-96 h-96 bg-medical-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-64 sm:w-96 h-64 sm:h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none overflow-hidden" />
+        <div className="absolute bottom-0 left-0 w-64 sm:w-96 h-64 sm:h-96 bg-medical-500/10 rounded-full blur-3xl pointer-events-none overflow-hidden" />
 
         <div className="relative z-10 max-w-3xl space-y-5">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/20 border border-brand-400/30 text-brand-300 text-xs font-semibold">
